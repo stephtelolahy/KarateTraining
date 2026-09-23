@@ -83,7 +83,7 @@ struct ExerciseContent: View {
         case .kata:
             if let kata = exercise.kata { KataCard(kata: kata) }
 
-        case .ipponKumite:
+        case .kumite:
             StepSection(title: "Attaquant",
                         steps: exercise.steps.filter { $0.role == .attack })
             StepSection(title: "Défenseur",
@@ -146,9 +146,6 @@ struct StepCard: View {
                         }
                         if let stance {
                             Chip(text: stanceText(for: stance), systemImage: "figure.stand")
-                        }
-                        if let movement = step.movement {
-                            Chip(text: movement.title, systemImage: "arrow.left.and.right")
                         }
                     }
                     if let note = step.note {

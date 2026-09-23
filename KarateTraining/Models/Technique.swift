@@ -1,5 +1,35 @@
 import Foundation
 
+/// Une technique de base (kihon).
+struct Technique: Identifiable, Hashable {
+    let id: TechniqueID
+    /// Nom japonais romanisé (ex. « Oi-zuki »).
+    let romaji: String
+    /// Traduction française.
+    let french: String
+    let category: TechniqueCategory
+    let description: String?
+}
+
+/// Identifiant unique de chaque technique du kihon.
+/// La `rawValue` (camelCase) est la clé utilisée dans `training.json`.
+enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
+    // Tsuki
+    case chokuZuki, oiZuki, gyakuZuki
+    // Uchi
+    case nukite, yokoEmpiUchi
+    // Geri
+    case maeGeri, mawashiGeri, yokoGeriKeikomi, yokoGeriKeage
+    // Uke
+    case ageUke, sotoUke, uchiUke, shutoUke, gedanBarai
+    // Dachi
+    case zenkutsuDachi, kokutsuDachi, kibaDachi
+    // Ido
+    case ayumiAshi, suriAshi, tsugiAshi, taiSabaki
+
+    var id: String { rawValue }
+}
+
 /// Catégories du kihon. L'ensemble est fermé → enum.
 enum TechniqueCategory: String, Codable, CaseIterable, Identifiable, Hashable {
     case tsuki   // attaques de poing

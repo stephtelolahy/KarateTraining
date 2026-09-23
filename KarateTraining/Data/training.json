@@ -202,7 +202,7 @@
           "id": "l3-10", "type": "kata", "kata": "heianShodan"
         },
         {
-          "id": "l3-11", "type": "ipponKumite",
+          "id": "l3-11", "type": "kumite",
           "direction": "forward", "repetitions": 5,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "jodan"},
@@ -211,7 +211,7 @@
           ]
         },
         {
-          "id": "l3-12", "type": "ipponKumite",
+          "id": "l3-12", "type": "kumite",
           "direction": "forward", "repetitions": 5,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "chudan"},
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "id": "l3-13", "type": "ipponKumite",
+          "id": "l3-13", "type": "kumite",
           "direction": "forward", "repetitions": 5,
           "steps": [
             {"role": "attack", "technique": "maeGeri", "target": "chudan"},
@@ -361,7 +361,7 @@
           "id": "l5-10", "type": "kata", "kata": "tekkiShodan"
         },
         {
-          "id": "l5-11", "type": "ipponKumite",
+          "id": "l5-11", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "jodan"},
@@ -370,7 +370,7 @@
           ]
         },
         {
-          "id": "l5-12", "type": "ipponKumite",
+          "id": "l5-12", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "chudan"},
@@ -379,7 +379,7 @@
           ]
         },
         {
-          "id": "l5-13", "type": "ipponKumite",
+          "id": "l5-13", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "maeGeri", "target": "chudan"},
@@ -388,7 +388,7 @@
           ]
         },
         {
-          "id": "l5-14", "type": "ipponKumite",
+          "id": "l5-14", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "mawashiGeri", "target": "chudan"},
@@ -397,7 +397,7 @@
           ]
         },
         {
-          "id": "l5-15", "type": "ipponKumite",
+          "id": "l5-15", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "maeGeri", "target": "jodan"},
@@ -406,16 +406,16 @@
           ]
         },
         {
-          "id": "l5-16", "type": "ipponKumite",
+          "id": "l5-16", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "jodan"},
             {"role": "defense", "technique": "ageUke"},
-            {"role": "counterAttack", "technique": "maeGeri", "target": "chudan", "movement": "onSpot"}
+            {"role": "counterAttack", "technique": "maeGeri", "target": "chudan"}
           ]
         },
         {
-          "id": "l5-17", "type": "ipponKumite",
+          "id": "l5-17", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "chudan"},
@@ -424,7 +424,7 @@
           ]
         },
         {
-          "id": "l5-18", "type": "ipponKumite",
+          "id": "l5-18", "type": "kumite",
           "direction": "forward", "repetitions": 1,
           "steps": [
             {"role": "attack", "technique": "oiZuki", "target": "chudan"},

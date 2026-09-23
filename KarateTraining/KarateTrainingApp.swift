@@ -13,7 +13,7 @@ struct KarateTrainingApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
+            ContentView()
                 .environment(store)
         }
     }

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct RootView: View {
+struct ContentView: View {
     var body: some View {
         TabView {
             TrainingListView()
@@ -13,5 +13,5 @@ struct RootView: View {
 }
 
 #Preview {
-    RootView().environment(ContentStore())
+    ContentView().environment(ContentStore())
 }

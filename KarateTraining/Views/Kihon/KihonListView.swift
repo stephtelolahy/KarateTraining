@@ -11,7 +11,7 @@ struct KihonListView: View {
 
     private var sections: [CategorySection] {
         TechniqueCategory.allCases.compactMap { category in
-            let items = KihonCatalog.techniques(in: category).filter { $0.matches(search) }
+            let items = TechniqueCatalog.techniques(in: category).filter { $0.matches(search) }
             return items.isEmpty ? nil : CategorySection(category: category, techniques: items)
         }
     }

@@ -60,3 +60,48 @@ enum ContentError: LocalizedError {
         }
     }
 }
+
+private extension TrainingContent {
+    /// Retourne la liste des incohérences de contenu (vide si tout va bien).
+    func validationIssues() -> [String] {
+        var issues: [String] = []
+        var seen = Set<String>()
+        for program in programs {
+            for exercise in program.exercises {
+                let context = "\(program.id) › \(exercise.id)"
+                if !seen.insert(exercise.id).inserted {
+                    issues.append("\(context) : identifiant d'exercice dupliqué")
+                }
+                issues += exercise.validationIssues().map { "\(context) : \($0)" }
+            }
+        }
+        return issues
+    }
+}
+
+private extension Exercise {
+    func validationIssues() -> [String] {
+        var issues: [String] = []
+
+        if repetitions < 1 { issues.append("nombre de répétitions invalide") }
+
+        for step in steps {
+            if let stance = step.stance, stance.definition.category != .dachi {
+                issues.append("« \(stance.rawValue) » n'est pas une position (dachi)")
+            }
+        }
+
+        switch type {
+        case .kata:
+            if kata == nil { issues.append("champ « kata » manquant") }
+        case .technique:
+            if steps.count > 1 { issues.append("une technique individuelle ne contient qu'une étape") }
+        case .combo:
+            if steps.count < 2 { issues.append("une combinaison contient au moins 2 étapes") }
+        case .kumite:
+            if !steps.contains(where: { $0.role == .attack }) { issues.append("attaque manquante") }
+            if !steps.contains(where: { $0.role == .defense }) { issues.append("défense manquante") }
+        }
+        return issues
+    }
+}

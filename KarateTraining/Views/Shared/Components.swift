@@ -7,7 +7,7 @@ extension ExerciseType {
         switch self {
         case .technique:   .blue
         case .combo:       .purple
-        case .ipponKumite: .red
+        case .kumite: .red
         case .kata:        .green
         }
     }

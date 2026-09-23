@@ -5,7 +5,6 @@ extension Step {
     var label: String {
         var text = technique.definition.romaji
         if let target { text += " \(target.rawValue)" }
-        if let movement { text += " (\(movement.title.lowercased()))" }
         return text
     }
 }
@@ -20,7 +19,7 @@ extension Exercise {
         case .kata:
             return kata?.name ?? "Kata"
 
-        case .ipponKumite:
+        case .kumite:
             let attack = Self.segments(for: steps.filter { $0.role == .attack })
             let response = Self.segments(for: steps.filter { $0.role != .attack })
             return attack.joined(separator: " + ") + " / " + response.joined(separator: " + ")

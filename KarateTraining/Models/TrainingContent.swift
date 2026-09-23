@@ -1,10 +1,71 @@
 import Foundation
 
+// MARK: - Programme
+
+struct TrainingContent: Decodable {
+    let version: Int
+    let programs: [TrainingProgram]
+}
+
+struct TrainingProgram: Identifiable, Decodable, Hashable {
+    let id: String
+    let title: String
+    let summary: String
+    /// Séquence ordonnée d'exercices.
+    let exercises: [Exercise]
+}
+
+// MARK: - Exercice
+
+struct Exercise: Identifiable, Decodable, Hashable {
+    let id: String
+    let type: ExerciseType
+    /// Titre libre ; sinon généré à partir des techniques.
+    var title: String?
+    var direction: Direction
+    var repetitions: Int
+    /// Séquence ordonnée. Vide pour un kata.
+    var steps: [Step]
+    var kata: KataID?
+    var notes: String?
+
+    private enum CodingKeys: String, CodingKey {
+        case id, type, title, direction, repetitions, startPosition, stance, steps, kata, notes
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id            = try c.decode(String.self, forKey: .id)
+        type          = try c.decode(ExerciseType.self, forKey: .type)
+        title         = try c.decodeIfPresent(String.self, forKey: .title)
+        direction     = try c.decodeIfPresent(Direction.self, forKey: .direction) ?? .onSpot
+        repetitions   = try c.decodeIfPresent(Int.self, forKey: .repetitions) ?? 1
+        steps         = try c.decodeIfPresent([Step].self, forKey: .steps) ?? []
+        kata          = try c.decodeIfPresent(KataID.self, forKey: .kata)
+        notes         = try c.decodeIfPresent(String.self, forKey: .notes)
+    }
+}
+
+// MARK: - Étape
+
+/// Une technique d'un exercice, avec son rôle explicite.
+struct Step: Decodable, Hashable {
+    let role: StepRole
+    let technique: TechniqueID
+    /// Niveau visé (jodan / chudan / gedan).
+    var target: TargetLevel?
+    /// Position (dachi) adoptée pour cette étape — de départ pour une parade
+    /// ou un coup de poing, d'arrivée pour un coup de pied.
+    var stance: TechniqueID?
+    var note: String?
+}
+
+
 /// Type d'exercice.
 enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
     case technique     // technique individuelle (éventuellement dans une position)
     case combo         // combinaison de plusieurs techniques
-    case ipponKumite   // combat à un pas : attaque / défense / contre-attaque
+    case kumite        // combat à un pas : attaque / défense / contre-attaque
     case kata
 
     var id: String { rawValue }
@@ -13,7 +74,7 @@ enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
         switch self {
         case .technique:   "Technique"
         case .combo:       "Combinaison"
-        case .ipponKumite: "Ippon Kumite"
+        case .kumite:      "Kumite"
         case .kata:        "Kata"
         }
     }
@@ -22,7 +83,7 @@ enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
         switch self {
         case .technique:   "scope"
         case .combo:       "link"
-        case .ipponKumite: "person.2.fill"
+        case .kumite: "person.2.fill"
         case .kata:        "figure.martial.arts"
         }
     }
