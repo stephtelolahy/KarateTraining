@@ -15,8 +15,33 @@ struct TechniqueDetailView: View {
                 .padding(.vertical, 4)
 
                 LabeledContent("Catégorie") {
-                    Label(technique.category.title, systemImage: technique.category.symbol)
+                    Text(technique.category.title)
                 }
+
+                if let imageURL = techniqueID.imageURL,
+                    let url = URL(string: imageURL) {
+                    LabeledContent("Image") {
+                        AsyncImage(url: url) { phase in
+                            switch phase {
+                            case .empty:
+                                ProgressView()
+                                    .frame(maxWidth: .infinity)
+                            case .success(let image):
+                                image
+                                    .resizable()
+                                    .scaledToFit()
+                            case .failure:
+                                Image(systemName: "photo")
+                                    .font(.largeTitle)
+                                    .foregroundStyle(.secondary)
+                                    .frame(maxWidth: .infinity)
+                            @unknown default:
+                                EmptyView()
+                            }
+                        }
+                    }
+                }
+
                 LabeledContent("Famille") { Text(technique.category.japanese) }
                 LabeledContent("Identifiant") {
                     Text(technique.id.rawValue).font(.callout.monospaced())
@@ -35,3 +60,4 @@ struct TechniqueDetailView: View {
 #Preview {
     TechniqueDetailView(techniqueID: .oiZuki)
 }
+
