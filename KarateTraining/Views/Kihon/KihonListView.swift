@@ -35,7 +35,12 @@ struct KihonListView: View {
                 if sections.isEmpty { ContentUnavailableView.search(text: search) }
             }
             .navigationTitle("Kihon")
-            .searchable(text: $search, prompt: "Rechercher une technique")
+            .searchable(
+                text: $search,
+                placement: .toolbarPrincipal,
+                prompt: "Rechercher une technique"
+            )
+            .autocorrectionDisabled(true)
             .techniqueDestination()
         }
     }
