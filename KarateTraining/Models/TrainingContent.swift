@@ -57,7 +57,6 @@ struct Step: Decodable, Hashable {
     /// Position (dachi) adoptée pour cette étape — de départ pour une parade
     /// ou un coup de poing, d'arrivée pour un coup de pied.
     var stance: TechniqueID?
-    var note: String?
 }
 
 
@@ -65,8 +64,8 @@ struct Step: Decodable, Hashable {
 enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
     case technique     // technique individuelle (éventuellement dans une position)
     case combo         // combinaison de plusieurs techniques
-    case kumite        // combat à un pas : attaque / défense / contre-attaque
     case kata
+    case kumite        // combat à un pas : attaque / défense / contre-attaque
 
     var id: String { rawValue }
 
@@ -74,8 +73,8 @@ enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
         switch self {
         case .technique:   "Technique"
         case .combo:       "Combinaison"
-        case .kumite:      "Kumite"
         case .kata:        "Kata"
+        case .kumite:      "Kumite"
         }
     }
 
@@ -83,8 +82,8 @@ enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
         switch self {
         case .technique:   "scope"
         case .combo:       "link"
-        case .kumite: "person.2.fill"
         case .kata:        "figure.martial.arts"
+        case .kumite:      "person.2.fill"
         }
     }
 }
