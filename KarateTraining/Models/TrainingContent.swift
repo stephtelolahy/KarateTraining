@@ -22,28 +22,10 @@ struct Exercise: Identifiable, Decodable, Hashable {
     let type: ExerciseType
     /// Titre libre ; sinon généré à partir des techniques.
     var title: String?
-    var direction: Direction
-    var repetitions: Int
-    /// Séquence ordonnée. Vide pour un kata.
-    var steps: [Step]
-    var kata: KataID?
+    var direction: Direction = .onSpot
+    var repetitions: Int = 1
     var notes: String?
-
-    private enum CodingKeys: String, CodingKey {
-        case id, type, title, direction, repetitions, startPosition, stance, steps, kata, notes
-    }
-
-    init(from decoder: Decoder) throws {
-        let c = try decoder.container(keyedBy: CodingKeys.self)
-        id            = try c.decode(String.self, forKey: .id)
-        type          = try c.decode(ExerciseType.self, forKey: .type)
-        title         = try c.decodeIfPresent(String.self, forKey: .title)
-        direction     = try c.decodeIfPresent(Direction.self, forKey: .direction) ?? .onSpot
-        repetitions   = try c.decodeIfPresent(Int.self, forKey: .repetitions) ?? 1
-        steps         = try c.decodeIfPresent([Step].self, forKey: .steps) ?? []
-        kata          = try c.decodeIfPresent(KataID.self, forKey: .kata)
-        notes         = try c.decodeIfPresent(String.self, forKey: .notes)
-    }
+    var steps: [Step] = []
 }
 
 // MARK: - Étape

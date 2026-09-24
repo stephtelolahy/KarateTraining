@@ -17,7 +17,7 @@ extension Exercise {
 
         switch type {
         case .kata:
-            return kata?.name ?? "Kata"
+            return title ?? "Kata"
 
         case .kumite:
             let attack = Self.segments(for: steps.filter { $0.role == .attack })

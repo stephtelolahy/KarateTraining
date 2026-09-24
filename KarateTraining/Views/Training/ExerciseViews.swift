@@ -58,13 +58,14 @@ struct ExerciseContent: View {
                 Text(exercise.displayTitle).font(.title2.bold())
             }
 
-            if exercise.type != .kata { parameters }
+            switch exercise.type {
+            case .technique, .combo, .kumite:
+                parameters
+            case .kata:
+                KataCard(kata: exercise)
+            }
 
             sequence
-
-            if let notes = exercise.notes {
-                Text(notes).font(.callout).foregroundStyle(.secondary)
-            }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
     }
@@ -80,16 +81,13 @@ struct ExerciseContent: View {
     @ViewBuilder
     private var sequence: some View {
         switch exercise.type {
-        case .kata:
-            if let kata = exercise.kata { KataCard(kata: kata) }
-
         case .kumite:
             StepSection(title: "Attaquant",
                         steps: exercise.steps.filter { $0.role == .attack })
             StepSection(title: "Défenseur",
                         steps: exercise.steps.filter { $0.role != .attack })
 
-        case .technique, .combo:
+        case .technique, .combo, .kata:
             StepSection(title: "Séquence",
                         steps: exercise.steps)
         }
@@ -163,15 +161,14 @@ struct StepCard: View {
 }
 
 struct KataCard: View {
-    let kata: KataID
+    let kata: Exercise
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(kata.name).font(.title3.bold())
-            Text(kata.meaning).font(.subheadline).foregroundStyle(.secondary)
-            Label("\(kata.moveCount) mouvements", systemImage: "figure.martial.arts")
+            Text(kata.displayTitle).font(.title3.bold())
+            Text(kata.notes ?? "Meaning").font(.subheadline).foregroundStyle(.secondary)
+            Label("\(kata.steps.count) mouvements", systemImage: "figure.martial.arts")
                 .font(.subheadline)
-            Text(kata.summary).font(.callout)
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)

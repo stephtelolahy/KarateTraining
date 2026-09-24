@@ -1,48 +1,11 @@
 //
-//  Literals.swift
+//  TrainingData.swift
 //  KarateTraining
 //
 //  Created by Hugues Stéphano TELOLAHY on 24/09/2026.
 //
 
-
 import Foundation
-
-// MARK: - Memberwise init for Exercise
-//
-// `Exercise` defines a custom `init(from:)` for Decodable conformance,
-// which suppresses the compiler-synthesized memberwise initializer.
-// This adds one back so `Exercise` values can be built as struct literals
-// below. (`Step` needs no such extension — it has no custom initializer,
-// so its memberwise init already exists.)
-extension Exercise {
-    init(
-        id: String,
-        type: ExerciseType,
-        title: String? = nil,
-        direction: Direction = .onSpot,
-        repetitions: Int = 1,
-        steps: [Step] = [],
-        kata: KataID? = nil,
-        notes: String? = nil
-    ) {
-        self.id = id
-        self.type = type
-        self.title = title
-        self.direction = direction
-        self.repetitions = repetitions
-        self.steps = steps
-        self.kata = kata
-        self.notes = notes
-    }
-}
-
-// MARK: - Training content (converted from training.json)
-//
-// Note: a few exercises in the source JSON (e.g. l4-01…l4-04) carry a
-// top-level "stance" key alongside their steps. `Exercise`'s `init(from:)`
-// never decodes that key, so it's dropped there too — omitted below to
-// match actual decoded behavior.
 
 let trainingContent = TrainingContent(
     version: 1,
@@ -125,7 +88,7 @@ let trainingContent = TrainingContent(
                          steps: [Step(role: .attack, technique: .yokoGeriKekomi, stance: .kibaDachi)]),
                 Exercise(id: "l3-09", type: .technique, direction: .forwardAndBack, repetitions: 5,
                          steps: [Step(role: .attack, technique: .yokoGeriKeage, stance: .kibaDachi)]),
-                Exercise(id: "l3-10", type: .kata, kata: .heianShodan),
+                Exercise.heianShodan,
                 Exercise(id: "l3-11", type: .kumite, direction: .forward, repetitions: 5,
                          steps: [
                             Step(role: .attack, technique: .oiZuki, target: .jodan),
@@ -182,8 +145,8 @@ let trainingContent = TrainingContent(
                             Step(role: .attack, technique: .gyakuZuki),
                             Step(role: .attack, technique: .oiZuki, target: .chudan)
                          ]),
-                Exercise(id: "l4-07", type: .kata, kata: .heianNidan),
-                Exercise(id: "l4-08", type: .kata, kata: .heianSandan)
+                Exercise.heianNidan,
+                Exercise.heianSandan,
             ]
         ),
         TrainingProgram(
@@ -220,9 +183,9 @@ let trainingContent = TrainingContent(
                             Step(role: .attack, technique: .maeGeri, target: .chudan),
                             Step(role: .attack, technique: .maeGeri, target: .jodan, stance: .zenkutsuDachi)
                          ]),
-                Exercise(id: "l5-08", type: .kata, kata: .heianYondan),
-                Exercise(id: "l5-09", type: .kata, kata: .heianGodan),
-                Exercise(id: "l5-10", type: .kata, kata: .tekkiShodan),
+                Exercise.heianYondan,
+                Exercise.heianGodan,
+                Exercise.tekkiShodan,
                 Exercise(id: "l5-11", type: .kumite, direction: .forward, repetitions: 1,
                          steps: [
                             Step(role: .attack, technique: .oiZuki, target: .jodan),
@@ -275,3 +238,62 @@ let trainingContent = TrainingContent(
         )
     ]
 )
+
+// MARK: - Kata
+
+private extension Exercise {
+    static var heianShodan: Self {
+        .init(
+            id: "heianShodan",
+            type: .kata,
+            title: "Heian Shodan",
+            notes: "Paix et tranquillité — 1er niveau",
+        )
+    }
+
+    static var heianNidan: Self {
+        .init(
+            id: "heianNidan",
+            type: .kata,
+            title: "Heian Nidan",
+            notes: "Paix et tranquillité — 2e niveau",
+        )
+    }
+
+    static var heianSandan: Self {
+        .init(
+            id: "heianSandan",
+            type: .kata,
+            title: "Heian Sandan",
+            notes: "Paix et tranquillité — 3e niveau",
+        )
+    }
+
+    static var heianYondan: Self {
+        .init(
+            id: "heianYondan",
+            type: .kata,
+            title: "Heian Yondan",
+            notes: "Paix et tranquillité — 4e niveau",
+        )
+    }
+
+    static var heianGodan: Self {
+        .init(
+            id: "heianGodan",
+            type: .kata,
+            title: "Heian Godan",
+            notes: "Paix et tranquillité — 5e niveau",
+        )
+    }
+
+    static var tekkiShodan: Self {
+        .init(
+            id: "tekkiShodan",
+            type: .kata,
+            title: "Tekki Shodan",
+            notes: "Cavalier de fer — 1er niveau",
+        )
+    }
+
+}

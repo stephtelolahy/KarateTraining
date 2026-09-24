@@ -8,23 +8,23 @@ final class ContentStore {
     /// Message d'erreur lisible si le JSON est absent, invalide ou incohérent.
     private(set) var loadError: String?
 
-//    init(bundle: Bundle = .main, resource: String = "training") {
-//        do {
-//            guard let url = bundle.url(forResource: resource, withExtension: "json") else {
-//                throw ContentError.fileNotFound("\(resource).json")
-//            }
-//            let data = try Data(contentsOf: url)
-//            let content = try JSONDecoder().decode(TrainingContent.self, from: data)
-//            let issues = content.validationIssues()
-//            guard issues.isEmpty else { throw ContentError.invalid(issues) }
-//            programs = content.programs
-//        } catch {
-//            loadError = Self.describe(error)
-//        }
-//    }
-
     init() {
         programs = trainingContent.programs
+    }
+
+    func load(bundle: Bundle = .main, resource: String = "training") {
+        do {
+            guard let url = bundle.url(forResource: resource, withExtension: "json") else {
+                throw ContentError.fileNotFound("\(resource).json")
+            }
+            let data = try Data(contentsOf: url)
+            let content = try JSONDecoder().decode(TrainingContent.self, from: data)
+            let issues = content.validationIssues()
+            guard issues.isEmpty else { throw ContentError.invalid(issues) }
+            programs = content.programs
+        } catch {
+            loadError = Self.describe(error)
+        }
     }
 
     // MARK: Erreurs
@@ -97,7 +97,8 @@ private extension Exercise {
 
         switch type {
         case .kata:
-            if kata == nil { issues.append("champ « kata » manquant") }
+            if title == nil { issues.append("champ « title » manquant") }
+            if notes == nil { issues.append("champ « notes » manquant") }
         case .technique:
             if steps.count > 1 { issues.append("une technique individuelle ne contient qu'une étape") }
         case .combo:
