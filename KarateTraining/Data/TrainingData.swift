@@ -116,22 +116,22 @@ let trainingContent = TrainingContent(
             exercises: [
                 Exercise(id: "l4-01", type: .combo, direction: .forwardAndBack, repetitions: 1,
                          steps: [
-                            Step(role: .defense, technique: .jodanAgeUke),
+                            Step(role: .defense, technique: .jodanAgeUke, stance: .zenkutsuDachi),
                             Step(role: .counterAttack, technique: .gyakuZuki)
                          ]),
                 Exercise(id: "l4-02", type: .combo, direction: .forwardAndBack, repetitions: 1,
                          steps: [
-                            Step(role: .defense, technique: .sotoUdeUke),
+                            Step(role: .defense, technique: .sotoUdeUke, stance: .zenkutsuDachi),
                             Step(role: .counterAttack, technique: .gyakuZuki)
                          ]),
                 Exercise(id: "l4-03", type: .combo, direction: .forwardAndBack, repetitions: 1,
                          steps: [
-                            Step(role: .defense, technique: .uchiUdeUke),
+                            Step(role: .defense, technique: .uchiUdeUke, stance: .zenkutsuDachi),
                             Step(role: .counterAttack, technique: .gyakuZuki)
                          ]),
                 Exercise(id: "l4-04", type: .combo, direction: .forwardAndBack, repetitions: 1,
                          steps: [
-                            Step(role: .defense, technique: .gedanBarai),
+                            Step(role: .defense, technique: .gedanBarai, stance: .zenkutsuDachi),
                             Step(role: .counterAttack, technique: .gyakuZuki)
                          ]),
                 Exercise(id: "l4-05", type: .combo, direction: .forwardAndBack, repetitions: 1,
@@ -141,7 +141,7 @@ let trainingContent = TrainingContent(
                          ]),
                 Exercise(id: "l4-06", type: .combo, direction: .forward, repetitions: 1,
                          steps: [
-                            Step(role: .attack, technique: .oiZuki, target: .jodan),
+                            Step(role: .attack, technique: .oiZuki, target: .jodan, stance: .zenkutsuDachi),
                             Step(role: .attack, technique: .gyakuZuki),
                             Step(role: .attack, technique: .oiZuki, target: .chudan)
                          ]),

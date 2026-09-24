@@ -33,20 +33,6 @@ extension Exercise {
     /// Une position précède sa technique, sauf pour un coup de pied
     /// (on retombe dans la position après la frappe).
     private static func segments(for steps: [Step]) -> [String] {
-        var result: [String] = []
-
-        for step in steps {
-            if let stance = step.stance {
-                let stanceName = stance.definition.romaji
-                if step.technique.definition.category == .geri {
-                    result += [step.label, stanceName]
-                } else {
-                    result += [stanceName, step.label]
-                }
-            } else {
-                result.append(step.label)
-            }
-        }
-        return result
+        steps.map(\.label)
     }
 }
