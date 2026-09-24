@@ -30,6 +30,7 @@ struct TechniqueDetailView: View {
                                 image
                                     .resizable()
                                     .scaledToFit()
+                                    .frame(height: 160)
                             case .failure:
                                 Image(systemName: "photo")
                                     .font(.largeTitle)
