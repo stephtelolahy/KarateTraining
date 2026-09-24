@@ -86,6 +86,7 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case gedanBarai
     case gedanUchiBarai
     case haishuUke
+    case haiwanUke
     case heikoUke
     case jodanAgeUke
     case jujiUke
@@ -96,11 +97,13 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case kakutoUke
     case manjiUke
     case moroteUchiUke
+    case moroteUke
     case nagashiUke
     case teNagashiUke
     case haiwanNagashiUke
     case osaeUke
     case otoshiUke
+    case shutoAgeUke
     case shutoUke
     case sotoUdeUke
     case sukuiUke
@@ -138,6 +141,7 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case tateZuki
     case teishoZuki
     case uraZuki
+    case yokoZuki
 
     // MARK: - Uchi
 
@@ -900,6 +904,16 @@ extension TechniqueID {
                 description: "Blocage circulaire effectué avec le dos de la main ouverte."
             )
 
+        case .haiwanUke:
+            Technique(
+                id: self,
+                romaji: "Haiwan-uke",
+                french: "Blocage double en rectangle",
+                category: .uke,
+                imageURL: nil,
+                description: "Double protection simultanée : un avant-bras exécute un blocage vertical vers l'extérieur pendant que l'autre protège le front à l'horizontale ; vus de face, les deux bras dessinent un rectangle, comme au début de Heian Nidan."
+            )
+
         case .heikoUke:
             Technique(
                 id: self,
@@ -990,6 +1004,16 @@ extension TechniqueID {
                 description: "Uchi-ude-uke renforcé par l'autre main posée sur l'avant-bras."
             )
 
+        case .moroteUke:
+            Technique(
+                id: self,
+                romaji: "Morote-uke",
+                french: "Blocage double des avant-bras",
+                category: .uke,
+                imageURL: nil,
+                description: "Blocage de l'intérieur vers l'extérieur exécuté avec les deux avant-bras ; le bras arrière reste plaqué contre le buste pour renforcer la parade, sans le soutenir directement comme dans morote-uchi-uke."
+            )
+
         case .nagashiUke:
             Technique(
                 id: self,
@@ -1038,6 +1062,16 @@ extension TechniqueID {
                 category: .uke,
                 imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/otoshiuke-2.jpg?fx=r_200_200",
                 description: "Blocage avec le tranchant externe de l'avant-bras dans un mouvement du haut vers le bas."
+            )
+
+        case .shutoAgeUke:
+            Technique(
+                id: self,
+                romaji: "Shuto-age-uke",
+                french: "Blocage montant en sabre de main",
+                category: .uke,
+                imageURL: nil,
+                description: "Blocage préparatoire réalisé main ouverte, remontant devant le visage avant d'enchaîner, en général, sur un blocage montant classique (jodan-age-uke)."
             )
 
         case .shutoUke:
@@ -1362,6 +1396,16 @@ extension TechniqueID {
                 category: .tsuki,
                 imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ura-tsuki.jpg",
                 description: "Coup direct avec la paume tournée vers le haut, sans rotation du poignet à l'impact."
+            )
+
+        case .yokoZuki:
+            Technique(
+                id: self,
+                romaji: "Yoko-zuki",
+                french: "Coup de poing latéral",
+                category: .tsuki,
+                imageURL: nil,
+                description: "Coup de poing direct frappé sur le côté, perpendiculairement à l'axe du corps, buste de profil, comme dans Heian Nidan."
             )
 
         // ============================================================

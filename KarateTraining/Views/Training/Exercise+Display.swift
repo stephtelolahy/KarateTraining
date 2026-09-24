@@ -3,7 +3,7 @@ import Foundation
 extension Step {
     /// Ex. « Oi-zuki jodan » ou « Mae-geri chudan (sur place) ».
     var label: String {
-        var text = technique.definition.romaji
+        var text = techniques.map(\.definition.romaji).joined(separator: " + ")
         if let target { text += " \(target.rawValue)" }
         return text
     }

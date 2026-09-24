@@ -33,7 +33,7 @@ struct Exercise: Identifiable, Decodable, Hashable {
 /// Une technique d'un exercice, avec son rôle explicite.
 struct Step: Decodable, Hashable {
     let role: StepRole
-    let technique: TechniqueID
+    let techniques: [TechniqueID]
     /// Niveau visé (jodan / chudan / gedan).
     var target: TargetLevel?
     /// Position (dachi) adoptée pour cette étape — de départ pour une parade

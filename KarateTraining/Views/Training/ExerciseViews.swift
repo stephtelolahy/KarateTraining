@@ -114,7 +114,7 @@ struct StepCard: View {
     let number: Int
     let step: Step
 
-    private var technique: Technique { step.technique.definition }
+    private var technique: Technique { step.techniques[0].definition }
     private var stance: TechniqueID? { step.stance }
     private var isKick: Bool { technique.category == .geri }
 
@@ -125,7 +125,7 @@ struct StepCard: View {
     }
 
     var body: some View {
-        NavigationLink(value: step.technique) {
+        NavigationLink(value: step.techniques[0]) {
             HStack(alignment: .top, spacing: 12) {
                 Text("\(number)")
                     .font(.caption.bold().monospacedDigit())
@@ -135,8 +135,8 @@ struct StepCard: View {
 
                 VStack(alignment: .leading, spacing: 5) {
                     RoleTag(role: step.role)
-                    Text(technique.romaji).font(.headline).foregroundStyle(.primary)
-                    Text(technique.french).font(.subheadline).foregroundStyle(.secondary)
+                    Text(step.techniques.map(\.definition.romaji).joined(separator: " + ")).font(.headline).foregroundStyle(.primary)
+                    Text(step.techniques.map(\.definition.french).joined(separator: " + ")).font(.subheadline).foregroundStyle(.secondary)
 
                     HStack(spacing: 6) {
                         if let target = step.target {
