@@ -160,7 +160,7 @@ let trainingContent = TrainingContent(
                          steps: [Step(role: .attack, technique: .yokoGeriKekomi, target: .jodan, stance: .zenkutsuDachi)]),
                 Exercise(id: "l5-03", type: .combo, direction: .forward, repetitions: 1,
                          steps: [
-                            Step(role: .attack, technique: .maeGeri),
+                            Step(role: .attack, technique: .maeGeri, stance: .zenkutsuDachi),
                             Step(role: .attack, technique: .oiZuki)
                          ]),
                 Exercise(id: "l5-04", type: .combo, direction: .forward, repetitions: 1,
@@ -219,7 +219,7 @@ let trainingContent = TrainingContent(
                 Exercise(id: "l5-16", type: .kumite, direction: .forward, repetitions: 1,
                          steps: [
                             Step(role: .attack, technique: .oiZuki, target: .jodan),
-                            Step(role: .defense, technique: .jodanAgeUke),
+                            Step(role: .defense, technique: .jodanAgeUke, stance: .zenkutsuDachi),
                             Step(role: .counterAttack, technique: .maeGeri, target: .chudan)
                          ]),
                 Exercise(id: "l5-17", type: .kumite, direction: .forward, repetitions: 1,

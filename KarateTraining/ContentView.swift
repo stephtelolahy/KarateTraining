@@ -4,10 +4,10 @@ struct ContentView: View {
     var body: some View {
         TabView {
             TrainingListView()
-                .tabItem { Label("Training", systemImage: "figure.martial.arts") }
+                .tabItem { Label("Training", systemImage: "timer") }
 
             KihonListView()
-                .tabItem { Label("Kihon", systemImage: "magnifyingglass") }
+                .tabItem { Label("Kihon", systemImage: "figure.martial.arts") }
         }
     }
 }
