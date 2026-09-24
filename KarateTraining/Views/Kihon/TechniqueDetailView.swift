@@ -18,7 +18,7 @@ struct TechniqueDetailView: View {
                     Text(technique.category.title)
                 }
 
-                if let imageURL = techniqueID.imageURL,
+                if let imageURL = technique.imageURL,
                     let url = URL(string: imageURL) {
                     LabeledContent("Image") {
                         AsyncImage(url: url) { phase in
