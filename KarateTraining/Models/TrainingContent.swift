@@ -22,12 +22,11 @@ struct Exercise: Identifiable, Decodable, Hashable {
     let type: ExerciseType
     /// Titre libre ; sinon généré à partir des techniques.
     var title: String?
+    var notes: String?
     var direction: Direction
     var repetitions: Int
-    /// Séquence ordonnée. Vide pour un kata.
     var steps: [Step]
-    var kata: KataID?
-    var notes: String?
+    var kata: KataID? // TODO: remove
 
     private enum CodingKeys: String, CodingKey {
         case id, type, title, direction, repetitions, startPosition, stance, steps, kata, notes
@@ -51,13 +50,9 @@ struct Exercise: Identifiable, Decodable, Hashable {
 /// Une technique d'un exercice, avec son rôle explicite.
 struct Step: Decodable, Hashable {
     let role: StepRole
-    let technique: TechniqueID
-    /// Niveau visé (jodan / chudan / gedan).
+    let technique: TechniqueID // TODO: array of techniques
     var target: TargetLevel?
-    /// Position (dachi) adoptée pour cette étape — de départ pour une parade
-    /// ou un coup de poing, d'arrivée pour un coup de pied.
     var stance: TechniqueID?
-    var note: String?
 }
 
 
@@ -65,8 +60,8 @@ struct Step: Decodable, Hashable {
 enum ExerciseType: String, Codable, CaseIterable, Identifiable, Hashable {
     case technique     // technique individuelle (éventuellement dans une position)
     case combo         // combinaison de plusieurs techniques
-    case kumite        // combat à un pas : attaque / défense / contre-attaque
     case kata
+    case kumite        // combat à un pas : attaque / défense / contre-attaque
 
     var id: String { rawValue }
 

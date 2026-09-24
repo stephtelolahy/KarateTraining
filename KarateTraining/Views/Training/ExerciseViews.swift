@@ -148,9 +148,6 @@ struct StepCard: View {
                             Chip(text: stanceText(for: stance), systemImage: "figure.stand")
                         }
                     }
-                    if let note = step.note {
-                        Text(note).font(.caption).foregroundStyle(.secondary)
-                    }
                 }
                 Spacer(minLength: 0)
                 Image(systemName: "chevron.right")
