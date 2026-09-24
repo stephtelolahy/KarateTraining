@@ -242,14 +242,53 @@ let trainingContent = TrainingContent(
 // MARK: - Kata
 
 private extension Exercise {
+
+    // MARK: - Heian Shodan
+
     static var heianShodan: Self {
         .init(
             id: "heianShodan",
             type: .kata,
             title: "Heian Shodan",
-            notes: "Paix et tranquillité — 1er niveau",
+            direction: .forwardAndBack,
+            repetitions: 1,
+            notes: "Paix et tranquillité — 1er niveau. 21 mouvements, kiai aux mouvements 9 et 17.",
+            steps: [
+                // 1–5
+                Step(role: .defense, technique: .gedanBarai, target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .defense, technique: .gedanBarai, target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .attack, technique: .tettsuiUchi, target: .chudan, stance: .renojiDachi),
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+
+                // 6–9
+                Step(role: .defense, technique: .gedanBarai, target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .defense, technique: .jodanAgeUke, target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .defense, technique: .jodanAgeUke, target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .defense, technique: .jodanAgeUke, target: .jodan, stance: .zenkutsuDachi),
+
+                // 10–14
+                Step(role: .defense, technique: .gedanBarai, target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .defense, technique: .gedanBarai, target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .defense, technique: .gedanBarai, target: .gedan, stance: .zenkutsuDachi),
+
+                // 15–17
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .attack, technique: .oiZuki, target: .chudan, stance: .zenkutsuDachi),
+
+                // 18–21
+                Step(role: .defense, technique: .shutoUke, target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, technique: .shutoUke, target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, technique: .shutoUke, target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, technique: .shutoUke, target: .chudan, stance: .kokutsuDachi)
+            ]
         )
     }
+
+    // MARK: - Heian Nidan
 
     static var heianNidan: Self {
         .init(
@@ -260,6 +299,8 @@ private extension Exercise {
         )
     }
 
+    // MARK: - Heian Sandan
+
     static var heianSandan: Self {
         .init(
             id: "heianSandan",
@@ -268,6 +309,8 @@ private extension Exercise {
             notes: "Paix et tranquillité — 3e niveau",
         )
     }
+
+    // MARK: - Heian Yondan
 
     static var heianYondan: Self {
         .init(
@@ -278,6 +321,8 @@ private extension Exercise {
         )
     }
 
+    // MARK: - Heian Godan
+
     static var heianGodan: Self {
         .init(
             id: "heianGodan",
@@ -287,6 +332,8 @@ private extension Exercise {
         )
     }
 
+    // MARK: - Tekki Shodan
+
     static var tekkiShodan: Self {
         .init(
             id: "tekkiShodan",
@@ -295,5 +342,4 @@ private extension Exercise {
             notes: "Cavalier de fer — 1er niveau",
         )
     }
-
 }
