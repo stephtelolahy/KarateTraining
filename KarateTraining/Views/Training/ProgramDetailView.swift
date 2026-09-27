@@ -31,7 +31,7 @@ struct ProgramDetailView: View {
         .navigationTitle(program.title)
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Exercise.self) { ExerciseDetailView(exercise: $0) }
-        .fullScreenCover(isPresented: $showSession) {
+        .sheet(isPresented: $showSession) {
             TrainingSessionView(program: program)
         }
     }
