@@ -1140,7 +1140,7 @@ extension TechniqueID {
                 romaji: "Teisho-uke",
                 french: "Blocage avec le talon de la paume",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-5.jpg?fx=c_100_100",
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-6.jpg?fx=r_200_200",
                 description: "Blocage main ouverte avec la partie charnue de la paume."
             )
 
@@ -2008,7 +2008,7 @@ extension TechniqueID {
                 romaji: "Nami-ashi",
                 french: "Coup de pied en vague",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mikazukigueri.png?fx=r_200_200",
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nami-ashi.jpg?fx=r_200_200",
                 description: "Mouvement remontant avec la plante du pied, notamment utilisé pour balayer une attaque basse."
             )
 
