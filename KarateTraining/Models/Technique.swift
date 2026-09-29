@@ -910,7 +910,7 @@ extension TechniqueID {
                 romaji: "Haiwan-uke",
                 french: "Blocage double en rectangle",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haiwan.jpg?fx=c_100_100",
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haiwan-uke-1.png",
                 description: "Double protection simultanée : un avant-bras exécute un blocage vertical vers l'extérieur pendant que l'autre protège le front à l'horizontale ; vus de face, les deux bras dessinent un rectangle, comme au début de Heian Nidan."
             )
 
