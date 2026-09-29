@@ -2,9 +2,10 @@ import SwiftUI
 
 struct TrainingListView: View {
     @Environment(ContentStore.self) private var store
+    @State private var selectedProgram: TrainingProgram?
 
     var body: some View {
-        NavigationStack {
+        NavigationSplitView {
             Group {
                 if let error = store.loadError {
                     ContentUnavailableView {
@@ -13,16 +14,21 @@ struct TrainingListView: View {
                         Text(error)
                     }
                 } else {
-                    List {
-                        ForEach(store.programs) { program in
-                            NavigationLink(value: program) { ProgramRow(program: program) }
-                        }
+                    List(store.programs, selection: $selectedProgram) { program in
+                        NavigationLink(value: program) { ProgramRow(program: program) }
                     }
                 }
             }
             .navigationTitle("Training")
-            .navigationDestination(for: TrainingProgram.self) { ProgramDetailView(program: $0) }
-            .techniqueDestination()
+        } detail: {
+            if let selectedProgram {
+                NavigationStack {
+                    ProgramDetailView(program: selectedProgram)
+                        .techniqueDestination()
+                }
+            } else {
+                ContentUnavailableView("Sélectionnez un programme", systemImage: "figure.martial.arts")
+            }
         }
     }
 }

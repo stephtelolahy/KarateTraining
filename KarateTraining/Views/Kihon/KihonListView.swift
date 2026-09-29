@@ -2,6 +2,7 @@ import SwiftUI
 
 struct KihonListView: View {
     @State private var search = ""
+    @State private var selectedTechniqueID: TechniqueID?
 
     private struct CategorySection: Identifiable {
         let category: TechniqueCategory
@@ -17,8 +18,8 @@ struct KihonListView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            List {
+        NavigationSplitView {
+            List(selection: $selectedTechniqueID) {
                 ForEach(sections) { section in
                     Section {
                         ForEach(section.techniques) { technique in
@@ -41,7 +42,12 @@ struct KihonListView: View {
                 prompt: "Rechercher une technique"
             )
             .autocorrectionDisabled(true)
-            .techniqueDestination()
+        } detail: {
+            if let selectedTechniqueID {
+                TechniqueDetailView(techniqueID: selectedTechniqueID)
+            } else {
+                ContentUnavailableView("Sélectionnez une technique", systemImage: "figure.martial.arts")
+            }
         }
     }
 }
