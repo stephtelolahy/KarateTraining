@@ -318,7 +318,7 @@ extension TechniqueID {
                 romaji: "Gankaku-kamae",
                 french: "Garde de la grue",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tsuru-achi-dachi-1.png",
                 description: "Posture combinant tsuru-ashi-dachi pour le bas du corps et manji-uke pour le haut du corps."
             )
 
@@ -448,7 +448,7 @@ extension TechniqueID {
                 romaji: "Manji-kamae",
                 french: "Garde manji",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/manji-uke-1.jpg?fx=r_200_200",
                 description: "Un bras effectue gedan-barai tandis que l'autre exécute un uchi-ude-uke haut, généralement en kokutsu-dachi."
             )
 
@@ -518,7 +518,7 @@ extension TechniqueID {
                 romaji: "Shizentai",
                 french: "Posture naturelle",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
                 description: "Posture naturelle debout, pieds écartés de la largeur des hanches, pointes légèrement ouvertes et genoux légèrement fléchis."
             )
 
@@ -552,7 +552,7 @@ extension TechniqueID {
                 romaji: "Fudo-dachi",
                 french: "Position enracinée",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fudo-dachi-1.png",
                 description: "Position équilibrée sur les deux jambes, combinant une jambe arrière proche du kiba-dachi et une jambe avant proche du zenkutsu-dachi."
             )
 
@@ -562,7 +562,7 @@ extension TechniqueID {
                 romaji: "Hachiji-dachi",
                 french: "Position naturelle en V",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
                 description: "Pieds écartés de la largeur des hanches, pointes dirigées vers l'extérieur."
             )
 
@@ -572,7 +572,7 @@ extension TechniqueID {
                 romaji: "Hangetsu-dachi",
                 french: "Position demi-lune",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hangetu-dachi-1.png",
                 description: "Position proche d'un fudo-dachi accentué à 45°, avec les genoux dirigés vers l'intérieur."
             )
 
@@ -582,7 +582,7 @@ extension TechniqueID {
                 romaji: "Heiko-dachi",
                 french: "Position parallèle",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
                 description: "Pieds parallèles, écartés de la largeur des hanches."
             )
 
@@ -592,7 +592,7 @@ extension TechniqueID {
                 romaji: "Heisoku-dachi",
                 french: "Position pieds joints",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heisoku-dachi-1.png",
                 description: "Les pieds sont joints et parallèles."
             )
 
@@ -602,7 +602,7 @@ extension TechniqueID {
                 romaji: "Kata-hiza-dachi",
                 french: "Position agenouillée",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kata-hiza-dachi.png",
                 description: "Le genou arrière repose au sol tandis que la jambe avant est fléchie."
             )
 
@@ -612,7 +612,7 @@ extension TechniqueID {
                 romaji: "Kiba-dachi",
                 french: "Position du cavalier",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
                 description: "Pieds parallèles, largement écartés, genoux fléchis et orientés vers l'extérieur, poids réparti également."
             )
 
@@ -622,7 +622,7 @@ extension TechniqueID {
                 romaji: "Kokutsu-dachi",
                 french: "Position arrière",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ko-kutsu-dachi-1.png",
                 description: "Environ 70 % du poids repose sur la jambe arrière fortement fléchie."
             )
 
@@ -632,7 +632,7 @@ extension TechniqueID {
                 romaji: "Kasei-kokutsu-dachi",
                 french: "Position arrière basse",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ko-kutsu-dachi-1.png",
                 description: "Variante plus basse que le kokutsu-dachi classique."
             )
 
@@ -642,7 +642,7 @@ extension TechniqueID {
                 romaji: self == .kosaDachi ? "Kosa-dachi" : "Kake-dachi",
                 french: "Position jambes croisées",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kosa-dachi-1.png",
                 description: "Les jambes sont croisées et le poids du corps repose principalement sur la jambe avant."
             )
 
@@ -652,7 +652,7 @@ extension TechniqueID {
                 romaji: "Moto-dachi",
                 french: "Position fondamentale courte",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/moto-dachi-1.png",
                 description: "Fente avant raccourcie, souvent appelée petit zenkutsu-dachi."
             )
 
@@ -662,7 +662,7 @@ extension TechniqueID {
                 romaji: "Musubi-dachi",
                 french: "Position du salut",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/musubi-dachi-1.png",
                 description: "Talons joints, pointes des pieds écartées en V."
             )
 
@@ -672,7 +672,7 @@ extension TechniqueID {
                 romaji: "Neko-ashi-dachi",
                 french: "Position du chat",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/neko-achi-dachi-2.jpg",
                 description: "Le poids est placé sur la jambe arrière fléchie ; le pied avant repose légèrement au sol."
             )
 
@@ -682,7 +682,7 @@ extension TechniqueID {
                 romaji: "Renoji-dachi",
                 french: "Position en L",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/reinoji-dachi-1.png",
                 description: "Les axes des pieds forment un L, avec les talons sur une même ligne."
             )
 
@@ -692,7 +692,7 @@ extension TechniqueID {
                 romaji: "Sagi-ashi-dachi",
                 french: "Position du héron",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sagi-ashi-dachi.png",
                 description: "Position debout sur une jambe, le pied libre légèrement en avant du genou."
             )
 
@@ -702,7 +702,7 @@ extension TechniqueID {
                 romaji: "Sanchin-dachi",
                 french: "Position du sablier",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sanchin-dachi-1.png",
                 description: "Les pieds sont rapprochés sur une même ligne et les orteils orientés vers l'intérieur, genoux resserrés."
             )
 
@@ -712,7 +712,7 @@ extension TechniqueID {
                 romaji: "Shiko-dachi",
                 french: "Position du sumotori",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/shiko-dachi-1.png",
                 description: "Position proche du kiba-dachi, mais avec les pointes de pieds dirigées vers l'extérieur."
             )
 
@@ -722,7 +722,7 @@ extension TechniqueID {
                 romaji: "Sochin-dachi",
                 french: "Position Sochin",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sochin-dachi-1.jpg",
                 description: "Position proche du kiba-dachi, orientée à 45° par rapport à la ligne d'attaque."
             )
 
@@ -732,7 +732,7 @@ extension TechniqueID {
                 romaji: "Teiji-dachi",
                 french: "Position en T",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teiji-dachi-1.png",
                 description: "Les pieds sont pratiquement perpendiculaires, le talon du pied avant étant au milieu du pied arrière."
             )
 
@@ -742,7 +742,7 @@ extension TechniqueID {
                 romaji: self == .tsuruAshiDachi ? "Tsuru-ashi-dachi" : "Gangaku-dachi",
                 french: "Position de la grue",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tsuru-achi-dachi-1.png",
                 description: "Position sur une jambe, le pied libre étant crocheté derrière le genou de la jambe d'appui."
             )
 
@@ -752,7 +752,7 @@ extension TechniqueID {
                 romaji: "Uchi-hachiji-dachi",
                 french: "Position naturelle en V inversé",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/uchi-hachiji-dachi-1.png",
                 description: "Pieds écartés de la largeur des hanches avec les pointes dirigées vers l'intérieur."
             )
 
@@ -762,7 +762,7 @@ extension TechniqueID {
                 romaji: "Zenkutsu-dachi",
                 french: "Position avant",
                 category: .dachi,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/zen-kutsu-2.png",
                 description: "Jambe avant fléchie et chargée à environ 70 %, jambe arrière tendue, pieds orientés dans le sens du déplacement."
             )
 
@@ -776,7 +776,7 @@ extension TechniqueID {
                 romaji: "Ayumi-ashi",
                 french: "Pas de marche",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ayumi-ashi-1.gif",
                 description: "Déplacement d'un pas vers l'avant, comme une marche normale."
             )
 
@@ -786,7 +786,7 @@ extension TechniqueID {
                 romaji: "Hiki-ashi",
                 french: "Pas arrière",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hiki-ashi-1.gif",
                 description: "Reculer d'un pas afin d'absorber une attaque et retrouver sa stabilité."
             )
 
@@ -796,7 +796,7 @@ extension TechniqueID {
                 romaji: "Mawari-ashi",
                 french: "Rotation sur la jambe avant",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/omawari-ashi-1.png",
                 description: "Rotation autour du pied avant qui sert de pivot."
             )
 
@@ -806,7 +806,7 @@ extension TechniqueID {
                 romaji: "Omawari-ashi",
                 french: "Grande rotation",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/omawari-ashi-1.png",
                 description: "Forme ample de mawari-ashi."
             )
 
@@ -816,7 +816,7 @@ extension TechniqueID {
                 romaji: "Okuri-ashi",
                 french: "Double pas",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/okuri-ashi.png",
                 description: "Double pas permettant d'avancer rapidement sans changer de garde."
             )
 
@@ -826,7 +826,7 @@ extension TechniqueID {
                 romaji: "Suri-ashi",
                 french: "Pas glissé",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tsugi-ashi-1.gif",
                 description: "Déplacement glissé sans décoller les pieds du sol."
             )
 
@@ -836,7 +836,7 @@ extension TechniqueID {
                 romaji: "Tsugi-ashi",
                 french: "Pas chassé",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tsugi-ashi-1.gif",
                 description: "Le corps est propulsé vers l'avant sans changement de garde."
             )
 
@@ -846,7 +846,7 @@ extension TechniqueID {
                 romaji: "Ushiro-mawari-ashi",
                 french: "Rotation sur la jambe arrière",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/omawari-ashi-1.png",
                 description: "Rotation autour du pied arrière qui sert de pivot."
             )
 
@@ -856,7 +856,7 @@ extension TechniqueID {
                 romaji: "Yori-ashi",
                 french: "Pas glissé court",
                 category: .ido,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yori-ashi-2.jpg",
                 description: "Pas glissé de faible amplitude, rapide et puissant, utilisable dans toutes les directions."
             )
 
@@ -910,7 +910,7 @@ extension TechniqueID {
                 romaji: "Haiwan-uke",
                 french: "Blocage double en rectangle",
                 category: .uke,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/2570119303-2.gif?fx=r_200_200",
                 description: "Double protection simultanée : un avant-bras exécute un blocage vertical vers l'extérieur pendant que l'autre protège le front à l'horizontale ; vus de face, les deux bras dessinent un rectangle, comme au début de Heian Nidan."
             )
 
@@ -1010,7 +1010,7 @@ extension TechniqueID {
                 romaji: "Morote-uke",
                 french: "Blocage double des avant-bras",
                 category: .uke,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/morote-1.jpg?fx=r_200_200",
                 description: "Blocage de l'intérieur vers l'extérieur exécuté avec les deux avant-bras ; le bras arrière reste plaqué contre le buste pour renforcer la parade, sans le soutenir directement comme dans morote-uchi-uke."
             )
 
@@ -1070,7 +1070,7 @@ extension TechniqueID {
                 romaji: "Shuto-age-uke",
                 french: "Blocage montant en sabre de main",
                 category: .uke,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-shuto-uke-1.png?fx=r_200_200",
                 description: "Blocage préparatoire réalisé main ouverte, remontant devant le visage avant d'enchaîner, en général, sur un blocage montant classique (jodan-age-uke)."
             )
 
@@ -1234,7 +1234,7 @@ extension TechniqueID {
                 romaji: "Morote-zuki",
                 french: "Double coup de poing",
                 category: .tsuki,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-tsuki.jpg?fx=r_200_200",
                 description: "Deux poings frappent simultanément."
             )
 
@@ -1384,7 +1384,7 @@ extension TechniqueID {
                 romaji: "Teisho-zuki",
                 french: "Coup direct de la paume",
                 category: .tsuki,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-5.jpg?fx=c_100_100",
                 description: "Attaque directe avec la base de la paume, poignet plié."
             )
 
@@ -1716,7 +1716,7 @@ extension TechniqueID {
                 romaji: "Fumikiri",
                 french: "Coup de pied coupant",
                 category: .geri,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikiri.jpg?fx=r_200_200",
                 description: "Coup de pied bas oblique donné avec le tranchant interne ou externe du pied."
             )
 
@@ -2098,7 +2098,7 @@ extension TechniqueID {
                 romaji: "Yoko-geri",
                 french: "Coup de pied latéral",
                 category: .geri,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
                 description: "Coup de pied latéral avec le tranchant externe du pied ou le talon."
             )
 
@@ -2108,7 +2108,7 @@ extension TechniqueID {
                 romaji: "Yoko-geri-keage",
                 french: "Coup de pied latéral fouetté",
                 category: .geri,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-keague-.jpg",
                 description: "Coup de pied latéral fouetté."
             )
 
@@ -2118,7 +2118,7 @@ extension TechniqueID {
                 romaji: "Yoko-geri-kekomi",
                 french: "Coup de pied latéral pénétrant",
                 category: .geri,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
                 description: "Coup de pied latéral pénétrant avec poussée des hanches."
             )
 
@@ -2128,7 +2128,7 @@ extension TechniqueID {
                 romaji: "Mae-ashi-yoko-geri",
                 french: "Yoko-geri jambe avant",
                 category: .geri,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
                 description: "Coup de pied latéral donné avec la jambe avant."
             )
 
@@ -2138,7 +2138,7 @@ extension TechniqueID {
                 romaji: "Ushiro-ashi-yoko-geri",
                 french: "Yoko-geri jambe arrière",
                 category: .geri,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
                 description: "Coup de pied latéral donné avec la jambe arrière."
             )
         }
