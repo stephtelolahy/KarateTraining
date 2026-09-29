@@ -880,7 +880,7 @@ extension TechniqueID {
                 romaji: "Gedan-barai",
                 french: "Défense basse",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gaiwan1.jpg?fx=c_100_100",
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gedan-barai-2.png?fx=r_200_200",
                 description: "Balayage vers le bas avec la partie externe de l'avant-bras."
             )
 
@@ -910,7 +910,7 @@ extension TechniqueID {
                 romaji: "Haiwan-uke",
                 french: "Blocage double en rectangle",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/2570119303-2.gif?fx=r_200_200",
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haiwan.jpg?fx=c_100_100",
                 description: "Double protection simultanée : un avant-bras exécute un blocage vertical vers l'extérieur pendant que l'autre protège le front à l'horizontale ; vus de face, les deux bras dessinent un rectangle, comme au début de Heian Nidan."
             )
 
@@ -920,7 +920,7 @@ extension TechniqueID {
                 romaji: "Heiko-uke",
                 french: "Blocage double parallèle",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haiwan.jpg?fx=c_100_100",
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/2570119303-2.gif?fx=r_200_200",
                 description: "Défense double avec les deux bras parallèles sur une même ligne horizontale."
             )
 
