@@ -328,7 +328,7 @@ extension TechniqueID {
                 romaji: "Gedan-kamae",
                 french: "Garde basse",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gedan-barai2-1.png?fx=r_200_200",
                 description: "La main avant est en parade basse et le poing opposé est en hikité."
             )
 
@@ -338,7 +338,7 @@ extension TechniqueID {
                 romaji: "Gyaku-hanmi",
                 french: "Profil inversé",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gyaku-tsuki.jpg",
                 description: "Posture de profil inversée avec le bassin orienté à environ 45°."
             )
 
@@ -348,7 +348,7 @@ extension TechniqueID {
                 romaji: "Hiza-kamae",
                 french: "Garde avec genou levé",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hizagueri-mae.png?fx=r_200_200",
                 description: "Un genou est élevé devant le corps afin de le protéger."
             )
 
@@ -358,7 +358,7 @@ extension TechniqueID {
                 romaji: "Jiai-kamae",
                 french: "Posture de bienveillance",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/musubi-dachi-1.png",
                 description: "Debout pieds joints, mains levées devant le menton, la main gauche couvrant le poing droit."
             )
 
@@ -368,7 +368,7 @@ extension TechniqueID {
                 romaji: "Juji-kamae",
                 french: "Garde en croix",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-juji-uke-1.png?fx=r_200_200",
                 description: "Les bras sont croisés devant le corps, au niveau jodan ou chudan."
             )
 
@@ -378,7 +378,7 @@ extension TechniqueID {
                 romaji: "Kaiun-no-te",
                 french: "Mains qui séparent les nuages",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kakiwake-2.jpg?fx=r_200_200",
                 description: "Bras tendus de part et d'autre du corps, mains ouvertes et paumes tournées vers l'extérieur."
             )
 
@@ -388,7 +388,7 @@ extension TechniqueID {
                 romaji: "Kitsutsuki-no-kamae",
                 french: "Garde du pic",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kakutouke-1.jpg?fx=r_200_200",
                 description: "Un poignet est disposé en tête de poulet et l'autre main est crochetée derrière le coude."
             )
 
@@ -398,7 +398,7 @@ extension TechniqueID {
                 romaji: "Koko-kamae",
                 french: "Garde gueule du tigre",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-awase-uke-1.gif?fx=r_200_200",
                 description: "Les mains sont disposées pour pouvoir saisir simultanément la gorge et le bas-ventre."
             )
 
@@ -408,7 +408,7 @@ extension TechniqueID {
                 romaji: "Kosa-kamae",
                 french: "Garde croisée basse et moyenne",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/uchi-uke1-1.png?fx=r_200_200",
                 description: "Un bras exécute gedan-barai et l'autre un uchi-ude-uke chudan."
             )
 
@@ -418,7 +418,7 @@ extension TechniqueID {
                 romaji: "Koshi-kamae",
                 french: "Garde aux hanches",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
                 description: "Les deux poings sont tirés au niveau de la même hanche, l'un placé au-dessus de l'autre."
             )
 
@@ -428,7 +428,7 @@ extension TechniqueID {
                 romaji: "Soete-koshi-kamae",
                 french: "Variante de garde aux hanches",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
                 description: "Variante de koshi-kamae où le poing supérieur repose dans la paume de la main inférieure."
             )
 
@@ -438,7 +438,7 @@ extension TechniqueID {
                 romaji: "Haito-koshi-kamae",
                 french: "Garde haito aux hanches",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haito-uchi.jpg?fx=r_200_200",
                 description: "Les mains sont positionnées sur le flanc d'une hanche, une main fermée et l'autre avec le tranchant vers le haut."
             )
 
@@ -458,7 +458,7 @@ extension TechniqueID {
                 romaji: "Mizu-nagare-no-kamae",
                 french: "Garde de l'eau qui coule",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kagi-tsuki-1.jpg?fx=r_200_200",
                 description: "Pieds joints, bras dans une position proche de kagi-zuki, avant-bras parallèles à la poitrine et poing arrière en hikité."
             )
 
@@ -468,7 +468,7 @@ extension TechniqueID {
                 romaji: "Ryusui-kamae",
                 french: "Garde de l'eau courante",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kagi-tsuki-1.jpg?fx=r_200_200",
                 description: "Variante de mizu-nagare-kamae avec la main avant ouverte sur le poing en hikité."
             )
 
@@ -478,7 +478,7 @@ extension TechniqueID {
                 romaji: "Muso-kamae",
                 french: "Posture incomparable",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/manji-uke-1.jpg?fx=r_200_200",
                 description: "Un bras est en gedan-barai et l'autre en age-uke, avec le corps de trois-quarts."
             )
 
@@ -488,7 +488,7 @@ extension TechniqueID {
                 romaji: "Ryoken-koshi-kamae",
                 french: "Garde des deux poings aux hanches",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
                 description: "Chaque poing est appliqué contre le flanc, au-dessus de sa hanche respective."
             )
 
@@ -498,7 +498,7 @@ extension TechniqueID {
                 romaji: "Ryowan-kamae",
                 french: "Garde des deux bras abaissés",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
                 description: "Les deux bras sont écartés et tendus vers le bas, symétriquement, avec les poings fermés."
             )
 
@@ -508,7 +508,7 @@ extension TechniqueID {
                 romaji: "Kaishu-ryowan-kamae",
                 french: "Garde des deux bras, mains ouvertes",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
                 description: "Variante de ryowan-kamae avec les mains ouvertes."
             )
 
@@ -528,7 +528,7 @@ extension TechniqueID {
                 romaji: "Yama-kamae",
                 french: "Garde de la montagne",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
                 description: "Corps de profil, bras écartés à hauteur de poitrine, avant-bras verticaux et jambes en kiba-dachi."
             )
 
@@ -538,7 +538,7 @@ extension TechniqueID {
                 romaji: "Kaishu-yama-kamae",
                 french: "Garde de la montagne, mains ouvertes",
                 category: .kamae,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
                 description: "Variante de yama-kamae avec les mains ouvertes."
             )
 
@@ -1364,7 +1364,7 @@ extension TechniqueID {
                 romaji: "Otoshi-zuki",
                 french: "Coup de poing descendant",
                 category: .tsuki,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/choku-tsuki.jpg",
                 description: "Coup de poing suivant une trajectoire descendante."
             )
 
@@ -1404,7 +1404,7 @@ extension TechniqueID {
                 romaji: "Yoko-zuki",
                 french: "Coup de poing latéral",
                 category: .tsuki,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
                 description: "Coup de poing direct frappé sur le côté, perpendiculairement à l'axe du corps, buste de profil, comme dans Heian Nidan."
             )
 
@@ -1692,7 +1692,7 @@ extension TechniqueID {
                 romaji: "Tobi-ashi-barai",
                 french: "Balayage sauté",
                 category: .barai,
-                imageURL: nil,
+                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ashi-barai-mae.jpg",
                 description: "Balayage de jambe effectué en sautant."
             )
 
