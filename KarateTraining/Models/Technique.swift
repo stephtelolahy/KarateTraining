@@ -1415,7 +1415,7 @@ extension TechniqueID {
                 romaji: "Yoko-zuki",
                 french: "Coup de poing latéral",
                 category: .tsuki,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SokumenGyakuZuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Kata/Kata_HNid030.jpg",
                 description: "Coup de poing direct frappé sur le côté, perpendiculairement à l'axe du corps, buste de profil, comme dans Heian Nidan."
             )
 
