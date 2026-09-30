@@ -98,6 +98,7 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case manjiUke
     case moroteUchiUke
     case moroteUke
+    case moroteKubiOsae
     case nagashiUke
     case teNagashiUke
     case haiwanNagashiUke
@@ -1132,6 +1133,16 @@ extension TechniqueID {
                 category: .uke,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TateShutoUke.jpg",
                 description: "Blocage utilisant une large trajectoire intérieure-extérieure avec le tranchant de la main."
+            )
+
+        case .moroteKubiOsae:
+            Technique(
+                id: self,
+                romaji: "Morote-kubi-osae",
+                french: "Saisie de la tête à deux mains",
+                category: .uke,
+                imageURL: nil,
+                description: "Les deux mains saisissent la tête de l'adversaire pour la tirer vers le bas, en préparation d'un coup de genou."
             )
 
         case .teishoUke:

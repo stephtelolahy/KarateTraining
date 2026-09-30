@@ -288,51 +288,38 @@ private extension Exercise {
             title: "Heian Nidan",
             direction: .forwardAndBack,
             repetitions: 1,
-            notes: "Paix et tranquillité — 2e niveau. 26 mouvements, kiai aux mouvements 11 et 26.",
+            notes: "Paix et tranquillité — 2e niveau. 21 mouvements, kiai aux mouvements 8 et 21.",
             steps: [
-                // 1–3
+                // 1–5
                 Step(role: .defense, techniques: [.haiwanUke], target: .jodan, stance: .kokutsuDachi),
-                Step(role: .attack, techniques: [.uraZuki, .nagashiUke], target: .chudan, stance: .kokutsuDachi),
-                Step(role: .attack, techniques: [.yokoZuki], target: .chudan, stance: .kokutsuDachi),
-
-                // 4–6
+                Step(role: .attack, techniques: [.uchiUdeUke, .uraZuki, .yokoZuki], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .defense, techniques: [.haiwanUke], target: .jodan, stance: .kokutsuDachi),
-                Step(role: .attack, techniques: [.uraZuki, .nagashiUke], target: .chudan, stance: .kokutsuDachi),
-                Step(role: .attack, techniques: [.yokoZuki], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .attack, techniques: [.uchiUdeUke, .uraZuki, .yokoZuki], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .attack, techniques: [.koshiKamae, .yokoGeriKeage, .urakenUchi, .shutoUke], target: .chudan, stance: .kokutsuDachi),
 
-                // 7
-                Step(role: .attack, techniques: [.yokoGeriKeage, .urakenUchi], target: .jodan, stance: .kokutsuDachi),
-
-                // 8–11 (kiai au mouvement 11)
-                Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
+                // 6–8 (kiai au mouvement 8)
                 Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .attack, techniques: [.nukite, .osaeUke], target: .chudan, stance: .zenkutsuDachi),
 
-                // 12–15
+                // 9–12
                 Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi),
 
-                // 16–18
-                Step(role: .defense, techniques: [.uchiUdeUke], target: .chudan, stance: .zenkutsuDachi),
-                Step(role: .attack, techniques: [.maeGeri], target: .chudan, stance: .zenkutsuDachi),
-                Step(role: .counterAttack, techniques: [.gyakuZuki], target: .chudan, stance: .zenkutsuDachi),
+                // 13–16
+                Step(role: .defense, techniques: [.uchiUdeUke, .gyakuHanmi], target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .counterAttack, techniques: [.maeGeriKeage, .gyakuZuki], target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.uchiUdeUke, .gyakuHanmi], target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .counterAttack, techniques: [.maeGeriKeage, .gyakuZuki], target: .chudan, stance: .zenkutsuDachi),
 
-                // 19–21
-                Step(role: .defense, techniques: [.uchiUdeUke], target: .chudan, stance: .zenkutsuDachi),
-                Step(role: .attack, techniques: [.maeGeri], target: .chudan, stance: .zenkutsuDachi),
-                Step(role: .counterAttack, techniques: [.gyakuZuki], target: .chudan, stance: .zenkutsuDachi),
-
-                // 22
-                Step(role: .defense, techniques: [.moroteUchiUke], target: .chudan, stance: .zenkutsuDachi),
-
-                // 23–26 (kiai au mouvement 26)
+                // 17–21 (kiai au mouvement 21)
+                Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .zenkutsuDachi),
                 Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi),
-                Step(role: .defense, techniques: [.shutoAgeUke, .jodanAgeUke], target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi),
                 Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi),
-                Step(role: .defense, techniques: [.shutoAgeUke, .jodanAgeUke], target: .jodan, stance: .zenkutsuDachi)
+                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi)
             ]
         )
     }
@@ -344,7 +331,39 @@ private extension Exercise {
             id: "heianSandan",
             type: .kata,
             title: "Heian Sandan",
-            notes: "Paix et tranquillité — 3e niveau",
+            direction: .forwardAndBack,
+            repetitions: 1,
+            notes: "Paix et tranquillité — 3e niveau. 21 mouvements, kiai aux mouvements 10 et 21.",
+            steps: [
+                // 1–6
+                Step(role: .defense, techniques: [.uchiUdeUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.gedanBarai, .uchiUdeUke], stance: .heisokuDachi),
+                Step(role: .defense, techniques: [.uchiUdeUke, .gedanBarai], stance: .heisokuDachi),
+                Step(role: .defense, techniques: [.uchiUdeUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.uchiUdeUke, .gedanBarai], stance: .heisokuDachi),
+                Step(role: .defense, techniques: [.gedanBarai, .uchiUdeUke], stance: .heisokuDachi),
+
+                // 7–10 (kiai au mouvement 10)
+                Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .attack, techniques: [.osaeUke, .nukite], target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .attack, techniques: [.tettsuiUchi], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi),
+
+                // 11–17
+                Step(role: .defense, techniques: [.ryokenKoshiKamae], stance: .heisokuDachi),
+                Step(role: .attack, techniques: [.fumikomiGeri, .yokoEmpiUchi], stance: .kibaDachi),
+                Step(role: .attack, techniques: [.tateUrakenUchi], target: .jodan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.fumikomiGeri, .yokoEmpiUchi], stance: .kibaDachi),
+                Step(role: .attack, techniques: [.tateUrakenUchi], target: .jodan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.fumikomiGeri, .yokoEmpiUchi], stance: .kibaDachi),
+                Step(role: .attack, techniques: [.tateUrakenUchi], target: .jodan, stance: .kibaDachi),
+
+                // 18–21 (kiai au mouvement 21)
+                Step(role: .defense, techniques: [.tateShutoUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .attack, techniques: [.tateZuki, .ushiroEmpiUchi], target: .jodan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.tateZuki, .ushiroEmpiUchi], target: .jodan, stance: .kibaDachi)
+            ]
         )
     }
 
@@ -355,7 +374,43 @@ private extension Exercise {
             id: "heianYondan",
             type: .kata,
             title: "Heian Yondan",
-            notes: "Paix et tranquillité — 4e niveau",
+            direction: .forwardAndBack,
+            repetitions: 1,
+            notes: "Paix et tranquillité — 4e niveau. 21 mouvements, kiai aux mouvements 11 et 20.",
+            steps: [
+                // 1–4
+                Step(role: .defense, techniques: [.haiwanUke], target: .jodan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.haiwanUke], target: .jodan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.gedanJujiUke], target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kokutsuDachi),
+
+                // 5–8
+                Step(role: .defense, techniques: [.koshiKamae], stance: .heisokuDachi),
+                Step(role: .attack, techniques: [.urakenUchi, .yokoGeriKeage, .maeEmpiUchi], target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.koshiKamae], stance: .heisokuDachi),
+                Step(role: .attack, techniques: [.urakenUchi, .yokoGeriKeage, .maeEmpiUchi], target: .jodan, stance: .zenkutsuDachi),
+
+                // 9–11 (kiai au mouvement 11)
+                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.shutoUke, .gyakuHanmi], target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .attack, techniques: [.maeGeriKeage, .osaeUke, .tateUrakenUchi], target: .chudan, stance: .kosaDachi),
+
+                // 12–15
+                Step(role: .defense, techniques: [.kakiwakeUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .counterAttack, techniques: [.maeGeriKeage, .oiZuki, .gyakuZuki], target: .chudan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.kakiwakeUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .counterAttack, techniques: [.maeGeriKeage, .oiZuki, .gyakuZuki], target: .chudan, stance: .zenkutsuDachi),
+
+                // 16–20 (kiai au mouvement 20)
+                Step(role: .defense, techniques: [.moroteUchiUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.moroteUchiUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.moroteUchiUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .attack, techniques: [.moroteKubiOsae], target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .attack, techniques: [.hizaGeri, .shutoUke], target: .jodan, stance: .kokutsuDachi),
+
+                // 21
+                Step(role: .defense, techniques: [.shutoUke], target: .chudan, stance: .kokutsuDachi)
+            ]
         )
     }
 
@@ -366,7 +421,43 @@ private extension Exercise {
             id: "heianGodan",
             type: .kata,
             title: "Heian Godan",
-            notes: "Paix et tranquillité — 5e niveau",
+            direction: .forwardAndBack,
+            repetitions: 1,
+            notes: "Paix et tranquillité — 5e niveau. 21 mouvements, kiai aux mouvements 10 et 16.",
+            steps: [
+                // 1–3
+                Step(role: .defense, techniques: [.uchiUdeUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .counterAttack, techniques: [.gyakuZuki], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.mizuNagareNoKamae], target: .chudan, stance: .heisokuDachi),
+
+                // 4–6
+                Step(role: .defense, techniques: [.uchiUdeUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .counterAttack, techniques: [.gyakuZuki], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.mizuNagareNoKamae], target: .chudan, stance: .heisokuDachi),
+
+                // 7–10 (kiai au mouvement 10)
+                Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.gedanJujiUke], target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.jodanJujiUke], target: .jodan, stance: .zenkutsuDachi),
+                Step(role: .attack, techniques: [.osaeUke, .chokuZuki, .oiZuki], target: .chudan, stance: .zenkutsuDachi),
+
+                // 11–15
+                Step(role: .defense, techniques: [.fumikomiGeri, .gedanBarai], target: .gedan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.haishuUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.mikazukiGeri, .maeEmpiUchi], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kosaDachi),
+                Step(role: .attack, techniques: [.ageZuki], stance: .renojiDachi),
+
+                // 16 (kiai) : saut vertical, réception en juji-uke puis morote-uke
+                Step(role: .defense, techniques: [.gedanJujiUke, .moroteUke], target: .chudan, stance: .zenkutsuDachi),
+
+                // 17–21
+                Step(role: .attack, techniques: [.nagashiUke, .nukite], target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.manjiUke], stance: .kokutsuDachi),
+                Step(role: .defense, techniques: [.manjiKamae], stance: .heisokuDachi),
+                Step(role: .attack, techniques: [.manjiKamae, .nukite], target: .gedan, stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.manjiUke], stance: .kokutsuDachi)
+            ]
         )
     }
 
@@ -377,7 +468,43 @@ private extension Exercise {
             id: "tekkiShodan",
             type: .kata,
             title: "Tekki Shodan",
-            notes: "Cavalier de fer — 1er niveau",
+            direction: .forwardAndBack,
+            repetitions: 1,
+            notes: "Cavalier de fer — 1er niveau. 25 mouvements, kiai aux mouvements 13 et 25.",
+            steps: [
+                // 1–6
+                Step(role: .defense, techniques: [.kosaDachi]),
+                Step(role: .defense, techniques: [.fumikomiGeri, .haishuUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.yokoMawashiEmpiUchi], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi),
+                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.kagiZuki], target: .chudan, stance: .kibaDachi),
+
+                // 7–13 (kiai au mouvement 13)
+                Step(role: .defense, techniques: [.kosaDachi]),
+                Step(role: .defense, techniques: [.fumikomiGeri, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.nagashiUke, .chokuZuki, .urakenUchi], target: .jodan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi),
+                Step(role: .attack, techniques: [.moroteZuki], target: .chudan, stance: .kibaDachi),
+
+                // 14–18
+                Step(role: .defense, techniques: [.haishuUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.yokoMawashiEmpiUchi], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi),
+                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.kagiZuki], target: .chudan, stance: .kibaDachi),
+
+                // 19–25 (kiai au mouvement 25)
+                Step(role: .defense, techniques: [.kosaDachi]),
+                Step(role: .defense, techniques: [.fumikomiGeri, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.nagashiUke, .chokuZuki, .urakenUchi], target: .jodan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi),
+                Step(role: .attack, techniques: [.moroteZuki], target: .chudan, stance: .kibaDachi)
+            ]
         )
     }
 }
