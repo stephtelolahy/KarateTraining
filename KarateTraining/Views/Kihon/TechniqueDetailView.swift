@@ -18,7 +18,15 @@ struct TechniqueDetailView: View {
                     Text(technique.category.title)
                 }
 
-                if let imageURL = technique.imageURL,
+                if let imageName = technique.imageName {
+                    LabeledContent("Image") {
+                        Image(imageName)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 160)
+                            .accessibilityLabel(technique.romaji)
+                    }
+                } else if let imageURL = technique.imageURL,
                     let url = URL(string: imageURL) {
                     LabeledContent("Image") {
                         AsyncImage(url: url) { phase in

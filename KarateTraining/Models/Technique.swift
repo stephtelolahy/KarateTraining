@@ -10,6 +10,8 @@ struct Technique: Identifiable, Hashable {
     let category: TechniqueCategory
     let imageURL: String?
     let description: String?
+    /// Illustration embarquée dans le catalogue d'assets (prioritaire sur `imageURL`).
+    var imageName: String? = nil
 }
 
 /// Identifiant unique de chaque technique du kihon.
@@ -1164,8 +1166,9 @@ extension TechniqueID {
                 romaji: "Age-zuki",
                 french: "Coup de poing remontant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/agetsuki.jpg",
-                description: "Coup de poing remontant sur une trajectoire circulaire, généralement vers le menton."
+                imageURL: nil,
+                description: "Coup de poing remontant sur une trajectoire circulaire, généralement vers le menton.",
+                imageName: "age-zuki"
             )
 
         case .chokuZuki:
@@ -1174,8 +1177,9 @@ extension TechniqueID {
                 romaji: "Choku-zuki",
                 french: "Coup de poing direct",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/choku-tsuki.jpg",
-                description: "Coup de poing rectiligne avec rotation complète du poignet à l'impact."
+                imageURL: nil,
+                description: "Coup de poing rectiligne avec rotation complète du poignet à l'impact.",
+                imageName: "choku-zuki"
             )
 
         case .gyakuZuki:
@@ -1184,8 +1188,9 @@ extension TechniqueID {
                 romaji: "Gyaku-zuki",
                 french: "Coup de poing inversé",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gyaku-tsuki.jpg",
-                description: "Coup de poing avec le bras opposé à la jambe avant, accompagné d'une rotation des hanches."
+                imageURL: nil,
+                description: "Coup de poing avec le bras opposé à la jambe avant, accompagné d'une rotation des hanches.",
+                imageName: "gyaku-zuki"
             )
 
         case .kagiZuki:
@@ -1194,8 +1199,9 @@ extension TechniqueID {
                 romaji: "Kagi-zuki",
                 french: "Coup de poing en crochet",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kagi-tsuki-1.jpg?fx=r_200_200",
-                description: "Coup de poing en crochet dans un plan parallèle à la poitrine."
+                imageURL: nil,
+                description: "Coup de poing en crochet dans un plan parallèle à la poitrine.",
+                imageName: "kagi-zuki"
             )
 
         case .kizamiZuki:
@@ -1204,8 +1210,9 @@ extension TechniqueID {
                 romaji: "Kizami-zuki",
                 french: "Coup de poing avant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kizami.jpg",
-                description: "Coup de poing avant effectué sur place ou avec yori-ashi."
+                imageURL: nil,
+                description: "Coup de poing avant effectué sur place ou avec yori-ashi.",
+                imageName: "kizami-zuki"
             )
 
         case .maeteZuki:
@@ -1214,8 +1221,9 @@ extension TechniqueID {
                 romaji: "Maete-zuki",
                 french: "Coup de poing avant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maete.jpg",
-                description: "Coup de poing avec le bras avant, sur place ou avec yori-ashi."
+                imageURL: nil,
+                description: "Coup de poing avec le bras avant, sur place ou avec yori-ashi.",
+                imageName: "maete-zuki"
             )
 
         case .mawashiZuki, .furiZuki:
@@ -1224,8 +1232,9 @@ extension TechniqueID {
                 romaji: self == .mawashiZuki ? "Mawashi-zuki" : "Furi-zuki",
                 french: "Coup de poing circulaire",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-tsuki.jpg",
-                description: "Coup de poing circulaire de l'extérieur vers l'intérieur."
+                imageURL: nil,
+                description: "Coup de poing circulaire de l'extérieur vers l'intérieur.",
+                imageName: "mawashi-zuki"
             )
 
         case .moroteZuki:
@@ -1234,8 +1243,9 @@ extension TechniqueID {
                 romaji: "Morote-zuki",
                 french: "Double coup de poing",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-tsuki.jpg?fx=r_200_200",
-                description: "Deux poings frappent simultanément."
+                imageURL: nil,
+                description: "Deux poings frappent simultanément.",
+                imageName: "morote-zuki"
             )
 
         case .heikoZuki:
@@ -1244,8 +1254,9 @@ extension TechniqueID {
                 romaji: "Heiko-zuki",
                 french: "Double coup de poing parallèle",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-tsuki.jpg?fx=r_200_200",
-                description: "Les deux poings arrivent au même niveau sur une trajectoire horizontale."
+                imageURL: nil,
+                description: "Les deux poings arrivent au même niveau sur une trajectoire horizontale.",
+                imageName: "heiko-zuki"
             )
 
         case .hasamiZuki:
@@ -1254,8 +1265,9 @@ extension TechniqueID {
                 romaji: "Hasami-zuki",
                 french: "Double coup de poing en ciseaux",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hasami-tsuki-2.jpg?fx=r_200_200",
-                description: "Les deux poings frappent selon deux trajectoires circulaires convergentes."
+                imageURL: nil,
+                description: "Les deux poings frappent selon deux trajectoires circulaires convergentes.",
+                imageName: "hasami-zuki"
             )
 
         case .moroteUraZuki:
@@ -1264,8 +1276,9 @@ extension TechniqueID {
                 romaji: "Morote-ura-zuki",
                 french: "Double ura-zuki",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/morote-ura-tsuki.jpg?fx=r_200_200",
-                description: "Deux poings frappent simultanément sur une trajectoire ascendante."
+                imageURL: nil,
+                description: "Deux poings frappent simultanément sur une trajectoire ascendante.",
+                imageName: "morote-ura-zuki"
             )
 
         case .awaseZuki:
@@ -1274,8 +1287,9 @@ extension TechniqueID {
                 romaji: "Awase-zuki",
                 french: "Double coup de poing à deux niveaux",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/awase-tsuki.jpg?fx=r_200_200",
-                description: "Les deux poings frappent simultanément à deux hauteurs différentes."
+                imageURL: nil,
+                description: "Les deux poings frappent simultanément à deux hauteurs différentes.",
+                imageName: "awase-zuki"
             )
 
         case .yamaZuki:
@@ -1284,8 +1298,9 @@ extension TechniqueID {
                 romaji: "Yama-zuki",
                 french: "Double coup de poing montagne",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yama-tsuki.jpg?fx=r_200_200",
-                description: "Double frappe à deux niveaux avec rotation des hanches amenant le buste de profil."
+                imageURL: nil,
+                description: "Double frappe à deux niveaux avec rotation des hanches amenant le buste de profil.",
+                imageName: "yama-zuki"
             )
 
         case .nagashiZuki:
@@ -1294,8 +1309,9 @@ extension TechniqueID {
                 romaji: "Nagashi-zuki",
                 french: "Coup de poing avec esquive",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nagashi.jpg",
-                description: "Coup de poing avant accompagné d'une esquive du corps juste avant l'impact."
+                imageURL: nil,
+                description: "Coup de poing avant accompagné d'une esquive du corps juste avant l'impact.",
+                imageName: "nagashi-zuki"
             )
 
         case .nukite:
@@ -1354,8 +1370,9 @@ extension TechniqueID {
                 romaji: self == .oiZuki ? "Oi-zuki" : "Jun-zuki",
                 french: "Coup de poing en avançant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/oi-tsuki-1.png",
-                description: "Coup de poing direct exécuté avec un pas en avant."
+                imageURL: nil,
+                description: "Coup de poing direct exécuté avec un pas en avant.",
+                imageName: "oi-zuki"
             )
 
         case .otoshiZuki:
@@ -1364,8 +1381,9 @@ extension TechniqueID {
                 romaji: "Otoshi-zuki",
                 french: "Coup de poing descendant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/choku-tsuki.jpg",
-                description: "Coup de poing suivant une trajectoire descendante."
+                imageURL: nil,
+                description: "Coup de poing suivant une trajectoire descendante.",
+                imageName: "otoshi-zuki"
             )
 
         case .tateZuki:
@@ -1374,8 +1392,9 @@ extension TechniqueID {
                 romaji: "Tate-zuki",
                 french: "Coup de poing vertical",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tate-tsuki.jpg",
-                description: "Coup de poing direct avec rotation partielle du poignet, laissant le poing vertical."
+                imageURL: nil,
+                description: "Coup de poing direct avec rotation partielle du poignet, laissant le poing vertical.",
+                imageName: "tate-zuki"
             )
 
         case .teishoZuki:
@@ -1384,8 +1403,9 @@ extension TechniqueID {
                 romaji: "Teisho-zuki",
                 french: "Coup direct de la paume",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-5.jpg?fx=c_100_100",
-                description: "Attaque directe avec la base de la paume, poignet plié."
+                imageURL: nil,
+                description: "Attaque directe avec la base de la paume, poignet plié.",
+                imageName: "teisho-zuki"
             )
 
         case .uraZuki:
@@ -1394,8 +1414,9 @@ extension TechniqueID {
                 romaji: "Ura-zuki",
                 french: "Coup de poing paume vers le haut",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ura-tsuki.jpg",
-                description: "Coup direct avec la paume tournée vers le haut, sans rotation du poignet à l'impact."
+                imageURL: nil,
+                description: "Coup direct avec la paume tournée vers le haut, sans rotation du poignet à l'impact.",
+                imageName: "ura-zuki"
             )
 
         case .yokoZuki:
@@ -1404,8 +1425,9 @@ extension TechniqueID {
                 romaji: "Yoko-zuki",
                 french: "Coup de poing latéral",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
-                description: "Coup de poing direct frappé sur le côté, perpendiculairement à l'axe du corps, buste de profil, comme dans Heian Nidan."
+                imageURL: nil,
+                description: "Coup de poing direct frappé sur le côté, perpendiculairement à l'axe du corps, buste de profil, comme dans Heian Nidan.",
+                imageName: "yoko-zuki"
             )
 
         // ============================================================
