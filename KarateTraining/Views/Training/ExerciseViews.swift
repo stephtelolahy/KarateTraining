@@ -114,6 +114,9 @@ struct StepCard: View {
     let number: Int
     let step: Step
 
+    @State private var isChoosingTechnique = false
+    @State private var selectedTechnique: TechniqueID?
+
     private var technique: Technique { step.techniques[0].definition }
     private var stance: TechniqueID? { step.stance }
     private var isKick: Bool { technique.category == .geri }
@@ -125,38 +128,56 @@ struct StepCard: View {
     }
 
     var body: some View {
-        NavigationLink(value: step.techniques[0]) {
-            HStack(alignment: .top, spacing: 12) {
-                Text("\(number)")
-                    .font(.caption.bold().monospacedDigit())
-                    .foregroundStyle(step.role.tint)
-                    .frame(width: 26, height: 26)
-                    .background(step.role.tint.opacity(0.15), in: Circle())
-
-                VStack(alignment: .leading, spacing: 5) {
-                    RoleTag(role: step.role)
-                    Text(step.techniques.map(\.definition.romaji).joined(separator: " + ")).font(.headline).foregroundStyle(.primary)
-                    Text(step.techniques.map(\.definition.french).joined(separator: " + ")).font(.subheadline).foregroundStyle(.secondary)
-
-                    HStack(spacing: 6) {
-                        if let target = step.target {
-                            Chip(text: target.title, systemImage: "scope")
-                        }
-                        if let stance {
-                            Chip(text: stanceText(for: stance), systemImage: "figure.stand")
-                        }
+        if step.techniques.count > 1 {
+            // Plusieurs techniques : on demande laquelle ouvrir.
+            Button { isChoosingTechnique = true } label: { card }
+                .buttonStyle(.plain)
+                .confirmationDialog("Quelle technique ouvrir ?",
+                                    isPresented: $isChoosingTechnique,
+                                    titleVisibility: .visible) {
+                    ForEach(Array(step.techniques.enumerated()), id: \.offset) { _, technique in
+                        Button(technique.definition.romaji) { selectedTechnique = technique }
                     }
                 }
-                Spacer(minLength: 0)
-                Image(systemName: "chevron.right")
-                    .font(.footnote.bold())
-                    .foregroundStyle(.tertiary)
-            }
-            .padding(12)
-            .background(Color(.secondarySystemBackground),
-                        in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                .navigationDestination(item: $selectedTechnique) {
+                    TechniqueDetailView(techniqueID: $0)
+                }
+        } else {
+            NavigationLink(value: step.techniques[0]) { card }
+                .buttonStyle(.plain)
         }
-        .buttonStyle(.plain)
+    }
+
+    private var card: some View {
+        HStack(alignment: .top, spacing: 12) {
+            Text("\(number)")
+                .font(.caption.bold().monospacedDigit())
+                .foregroundStyle(step.role.tint)
+                .frame(width: 26, height: 26)
+                .background(step.role.tint.opacity(0.15), in: Circle())
+
+            VStack(alignment: .leading, spacing: 5) {
+                RoleTag(role: step.role)
+                Text(step.techniques.map(\.definition.romaji).joined(separator: " + ")).font(.headline).foregroundStyle(.primary)
+                Text(step.techniques.map(\.definition.french).joined(separator: " + ")).font(.subheadline).foregroundStyle(.secondary)
+
+                HStack(spacing: 6) {
+                    if let target = step.target {
+                        Chip(text: target.title, systemImage: "scope")
+                    }
+                    if let stance {
+                        Chip(text: stanceText(for: stance), systemImage: "figure.stand")
+                    }
+                }
+            }
+            Spacer(minLength: 0)
+            Image(systemName: "chevron.right")
+                .font(.footnote.bold())
+                .foregroundStyle(.tertiary)
+        }
+        .padding(12)
+        .background(Color(.secondarySystemBackground),
+                    in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }
 
