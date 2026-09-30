@@ -347,10 +347,10 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kokutsuDachi),
                 Step(role: .attack, techniques: [.osaeUke, .nukite], target: .chudan, stance: .zenkutsuDachi),
                 Step(role: .attack, techniques: [.tettsuiUchi], target: .chudan, stance: .kibaDachi),
-                Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .kibaDachi),
+                Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi),
 
                 // 11–17
-                Step(role: .defense, techniques: [.ryokenKoshiKamae], stance: .zenkutsuDachi),
+                Step(role: .defense, techniques: [.ryokenKoshiKamae], stance: .heisokuDachi),
                 Step(role: .attack, techniques: [.fumikomiGeri, .yokoEmpiUchi], stance: .kibaDachi),
                 Step(role: .attack, techniques: [.tateUrakenUchi], target: .jodan, stance: .kibaDachi),
                 Step(role: .attack, techniques: [.fumikomiGeri, .yokoEmpiUchi], stance: .kibaDachi),
