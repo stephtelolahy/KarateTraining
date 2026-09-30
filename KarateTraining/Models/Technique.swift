@@ -318,7 +318,7 @@ extension TechniqueID {
                 romaji: "Gankaku-kamae",
                 french: "Garde de la grue",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tsuru-achi-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_GangakuGamae.jpg",
                 description: "Posture combinant tsuru-ashi-dachi pour le bas du corps et manji-uke pour le haut du corps."
             )
 
@@ -328,7 +328,7 @@ extension TechniqueID {
                 romaji: "Gedan-kamae",
                 french: "Garde basse",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gedan-barai2-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_GedanGamae.jpg",
                 description: "La main avant est en parade basse et le poing opposé est en hikité."
             )
 
@@ -348,7 +348,7 @@ extension TechniqueID {
                 romaji: "Hiza-kamae",
                 french: "Garde avec genou levé",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hizagueri-mae.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_HizaGamae.jpg",
                 description: "Un genou est élevé devant le corps afin de le protéger."
             )
 
@@ -358,7 +358,7 @@ extension TechniqueID {
                 romaji: "Jiai-kamae",
                 french: "Posture de bienveillance",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/musubi-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_JiaiNoGamae.jpg",
                 description: "Debout pieds joints, mains levées devant le menton, la main gauche couvrant le poing droit."
             )
 
@@ -368,7 +368,7 @@ extension TechniqueID {
                 romaji: "Juji-kamae",
                 french: "Garde en croix",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-juji-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_JujiGamae.jpg",
                 description: "Les bras sont croisés devant le corps, au niveau jodan ou chudan."
             )
 
@@ -398,7 +398,7 @@ extension TechniqueID {
                 romaji: "Koko-kamae",
                 french: "Garde gueule du tigre",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-awase-uke-1.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_KokoGamae.jpg",
                 description: "Les mains sont disposées pour pouvoir saisir simultanément la gorge et le bas-ventre."
             )
 
@@ -408,7 +408,7 @@ extension TechniqueID {
                 romaji: "Kosa-kamae",
                 french: "Garde croisée basse et moyenne",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/uchi-uke1-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_KosaGamae.jpg",
                 description: "Un bras exécute gedan-barai et l'autre un uchi-ude-uke chudan."
             )
 
@@ -418,7 +418,7 @@ extension TechniqueID {
                 romaji: "Koshi-kamae",
                 french: "Garde aux hanches",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_KoshiGamae.jpg",
                 description: "Les deux poings sont tirés au niveau de la même hanche, l'un placé au-dessus de l'autre."
             )
 
@@ -428,7 +428,7 @@ extension TechniqueID {
                 romaji: "Soete-koshi-kamae",
                 french: "Variante de garde aux hanches",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_SoeteKoshiGamae.jpg",
                 description: "Variante de koshi-kamae où le poing supérieur repose dans la paume de la main inférieure."
             )
 
@@ -438,7 +438,7 @@ extension TechniqueID {
                 romaji: "Haito-koshi-kamae",
                 french: "Garde haito aux hanches",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haito-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_HaitoKoshiGamae.jpg",
                 description: "Les mains sont positionnées sur le flanc d'une hanche, une main fermée et l'autre avec le tranchant vers le haut."
             )
 
@@ -448,7 +448,7 @@ extension TechniqueID {
                 romaji: "Manji-kamae",
                 french: "Garde manji",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/manji-uke-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_ManjiGamae.jpg",
                 description: "Un bras effectue gedan-barai tandis que l'autre exécute un uchi-ude-uke haut, généralement en kokutsu-dachi."
             )
 
@@ -458,7 +458,7 @@ extension TechniqueID {
                 romaji: "Mizu-nagare-no-kamae",
                 french: "Garde de l'eau qui coule",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kagi-tsuki-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_MizuNagareNoGamae.jpg",
                 description: "Pieds joints, bras dans une position proche de kagi-zuki, avant-bras parallèles à la poitrine et poing arrière en hikité."
             )
 
@@ -468,7 +468,7 @@ extension TechniqueID {
                 romaji: "Ryusui-kamae",
                 french: "Garde de l'eau courante",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kagi-tsuki-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_MizuNagareNoGamae.jpg",
                 description: "Variante de mizu-nagare-kamae avec la main avant ouverte sur le poing en hikité."
             )
 
@@ -488,7 +488,7 @@ extension TechniqueID {
                 romaji: "Ryoken-koshi-kamae",
                 french: "Garde des deux poings aux hanches",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_RyokenKoshiGamae.jpg",
                 description: "Chaque poing est appliqué contre le flanc, au-dessus de sa hanche respective."
             )
 
@@ -498,7 +498,7 @@ extension TechniqueID {
                 romaji: "Ryowan-kamae",
                 french: "Garde des deux bras abaissés",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_RywanGamae.jpg",
                 description: "Les deux bras sont écartés et tendus vers le bas, symétriquement, avec les poings fermés."
             )
 
@@ -508,7 +508,7 @@ extension TechniqueID {
                 romaji: "Kaishu-ryowan-kamae",
                 french: "Garde des deux bras, mains ouvertes",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_KaishuRyowanGamae.jpg",
                 description: "Variante de ryowan-kamae avec les mains ouvertes."
             )
 
@@ -518,7 +518,7 @@ extension TechniqueID {
                 romaji: "Shizentai",
                 french: "Posture naturelle",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_Shizentai.jpg",
                 description: "Posture naturelle debout, pieds écartés de la largeur des hanches, pointes légèrement ouvertes et genoux légèrement fléchis."
             )
 
@@ -528,7 +528,7 @@ extension TechniqueID {
                 romaji: "Yama-kamae",
                 french: "Garde de la montagne",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_YamaGamae.jpg",
                 description: "Corps de profil, bras écartés à hauteur de poitrine, avant-bras verticaux et jambes en kiba-dachi."
             )
 
@@ -538,7 +538,7 @@ extension TechniqueID {
                 romaji: "Kaishu-yama-kamae",
                 french: "Garde de la montagne, mains ouvertes",
                 category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_KaishuYamaGamae.jpg",
                 description: "Variante de yama-kamae avec les mains ouvertes."
             )
 
@@ -552,7 +552,7 @@ extension TechniqueID {
                 romaji: "Fudo-dachi",
                 french: "Position enracinée",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fudo-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_FudoDachi.jpg",
                 description: "Position équilibrée sur les deux jambes, combinant une jambe arrière proche du kiba-dachi et une jambe avant proche du zenkutsu-dachi."
             )
 
@@ -562,7 +562,7 @@ extension TechniqueID {
                 romaji: "Hachiji-dachi",
                 french: "Position naturelle en V",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hachiji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_HachijiDachi.JPG",
                 description: "Pieds écartés de la largeur des hanches, pointes dirigées vers l'extérieur."
             )
 
@@ -572,7 +572,7 @@ extension TechniqueID {
                 romaji: "Hangetsu-dachi",
                 french: "Position demi-lune",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hangetu-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_HangetsuDachi.JPG",
                 description: "Position proche d'un fudo-dachi accentué à 45°, avec les genoux dirigés vers l'intérieur."
             )
 
@@ -582,7 +582,7 @@ extension TechniqueID {
                 romaji: "Heiko-dachi",
                 french: "Position parallèle",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_HeikoDachi.jpg",
                 description: "Pieds parallèles, écartés de la largeur des hanches."
             )
 
@@ -592,7 +592,7 @@ extension TechniqueID {
                 romaji: "Heisoku-dachi",
                 french: "Position pieds joints",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heisoku-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_HeisokuDachi.JPG",
                 description: "Les pieds sont joints et parallèles."
             )
 
@@ -612,7 +612,7 @@ extension TechniqueID {
                 romaji: "Kiba-dachi",
                 french: "Position du cavalier",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kiba-dachi-2.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_KibaDachi.JPG",
                 description: "Pieds parallèles, largement écartés, genoux fléchis et orientés vers l'extérieur, poids réparti également."
             )
 
@@ -622,7 +622,7 @@ extension TechniqueID {
                 romaji: "Kokutsu-dachi",
                 french: "Position arrière",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ko-kutsu-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_KoKutsuDachi.JPG",
                 description: "Environ 70 % du poids repose sur la jambe arrière fortement fléchie."
             )
 
@@ -632,7 +632,7 @@ extension TechniqueID {
                 romaji: "Kasei-kokutsu-dachi",
                 french: "Position arrière basse",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ko-kutsu-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_KoKutsuDachi.JPG",
                 description: "Variante plus basse que le kokutsu-dachi classique."
             )
 
@@ -642,7 +642,7 @@ extension TechniqueID {
                 romaji: self == .kosaDachi ? "Kosa-dachi" : "Kake-dachi",
                 french: "Position jambes croisées",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kosa-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_KosaDachi.jpg",
                 description: "Les jambes sont croisées et le poids du corps repose principalement sur la jambe avant."
             )
 
@@ -652,7 +652,7 @@ extension TechniqueID {
                 romaji: "Moto-dachi",
                 french: "Position fondamentale courte",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/moto-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_MotoDachi.jpg",
                 description: "Fente avant raccourcie, souvent appelée petit zenkutsu-dachi."
             )
 
@@ -662,7 +662,7 @@ extension TechniqueID {
                 romaji: "Musubi-dachi",
                 french: "Position du salut",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/musubi-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_MusubiDachi.JPG",
                 description: "Talons joints, pointes des pieds écartées en V."
             )
 
@@ -672,7 +672,7 @@ extension TechniqueID {
                 romaji: "Neko-ashi-dachi",
                 french: "Position du chat",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/neko-achi-dachi-2.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_NekoAshiDachi.JPG",
                 description: "Le poids est placé sur la jambe arrière fléchie ; le pied avant repose légèrement au sol."
             )
 
@@ -682,7 +682,7 @@ extension TechniqueID {
                 romaji: "Renoji-dachi",
                 french: "Position en L",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/reinoji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_RenojiDachi.jpg",
                 description: "Les axes des pieds forment un L, avec les talons sur une même ligne."
             )
 
@@ -692,7 +692,7 @@ extension TechniqueID {
                 romaji: "Sagi-ashi-dachi",
                 french: "Position du héron",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sagi-ashi-dachi.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_SagiAshiDachi.JPG",
                 description: "Position debout sur une jambe, le pied libre légèrement en avant du genou."
             )
 
@@ -702,7 +702,7 @@ extension TechniqueID {
                 romaji: "Sanchin-dachi",
                 french: "Position du sablier",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sanchin-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_SanchinDachi.JPG",
                 description: "Les pieds sont rapprochés sur une même ligne et les orteils orientés vers l'intérieur, genoux resserrés."
             )
 
@@ -712,7 +712,7 @@ extension TechniqueID {
                 romaji: "Shiko-dachi",
                 french: "Position du sumotori",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/shiko-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_ShicoDachi.JPG",
                 description: "Position proche du kiba-dachi, mais avec les pointes de pieds dirigées vers l'extérieur."
             )
 
@@ -722,7 +722,7 @@ extension TechniqueID {
                 romaji: "Sochin-dachi",
                 french: "Position Sochin",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sochin-dachi-1.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_FudoDachi.jpg",
                 description: "Position proche du kiba-dachi, orientée à 45° par rapport à la ligne d'attaque."
             )
 
@@ -732,7 +732,7 @@ extension TechniqueID {
                 romaji: "Teiji-dachi",
                 french: "Position en T",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teiji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_TeijiDachi.JPG",
                 description: "Les pieds sont pratiquement perpendiculaires, le talon du pied avant étant au milieu du pied arrière."
             )
 
@@ -742,7 +742,7 @@ extension TechniqueID {
                 romaji: self == .tsuruAshiDachi ? "Tsuru-ashi-dachi" : "Gangaku-dachi",
                 french: "Position de la grue",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tsuru-achi-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_IpponAshiDachi.jpg",
                 description: "Position sur une jambe, le pied libre étant crocheté derrière le genou de la jambe d'appui."
             )
 
@@ -752,7 +752,7 @@ extension TechniqueID {
                 romaji: "Uchi-hachiji-dachi",
                 french: "Position naturelle en V inversé",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/uchi-hachiji-dachi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_UchiHachijiDachi.JPG",
                 description: "Pieds écartés de la largeur des hanches avec les pointes dirigées vers l'intérieur."
             )
 
@@ -762,7 +762,7 @@ extension TechniqueID {
                 romaji: "Zenkutsu-dachi",
                 french: "Position avant",
                 category: .dachi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/zen-kutsu-2.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_ZenKutsuDachi.jpg",
                 description: "Jambe avant fléchie et chargée à environ 70 %, jambe arrière tendue, pieds orientés dans le sens du déplacement."
             )
 
@@ -776,7 +776,7 @@ extension TechniqueID {
                 romaji: "Ayumi-ashi",
                 french: "Pas de marche",
                 category: .ido,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ayumi-ashi-1.gif",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Depl_AyumiAshi01.jpg",
                 description: "Déplacement d'un pas vers l'avant, comme une marche normale."
             )
 
@@ -786,7 +786,7 @@ extension TechniqueID {
                 romaji: "Hiki-ashi",
                 french: "Pas arrière",
                 category: .ido,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hiki-ashi-1.gif",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Depl_HikiAshi.jpg",
                 description: "Reculer d'un pas afin d'absorber une attaque et retrouver sa stabilité."
             )
 
@@ -796,7 +796,7 @@ extension TechniqueID {
                 romaji: "Mawari-ashi",
                 french: "Rotation sur la jambe avant",
                 category: .ido,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/omawari-ashi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Depl_Mawari04.jpg",
                 description: "Rotation autour du pied avant qui sert de pivot."
             )
 
@@ -806,7 +806,7 @@ extension TechniqueID {
                 romaji: "Omawari-ashi",
                 french: "Grande rotation",
                 category: .ido,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/omawari-ashi-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Depl_OMawariAshi02.jpg",
                 description: "Forme ample de mawari-ashi."
             )
 
@@ -870,7 +870,7 @@ extension TechniqueID {
                 romaji: "Empi-uke",
                 french: "Blocage du coude",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/empi-uke-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Empiuke.jpg",
                 description: "Blocage avec le coude, destiné notamment à protéger le buste."
             )
 
@@ -880,7 +880,7 @@ extension TechniqueID {
                 romaji: "Gedan-barai",
                 french: "Défense basse",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gedan-barai-2.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_GedanBarai.jpg",
                 description: "Balayage vers le bas avec la partie externe de l'avant-bras."
             )
 
@@ -890,7 +890,7 @@ extension TechniqueID {
                 romaji: "Gedan-uchi-barai",
                 french: "Défense basse intérieure",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gedan-barai2-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UchiBarai.jpg",
                 description: "Gedan-barai exécuté de l'extérieur vers l'intérieur."
             )
 
@@ -900,7 +900,7 @@ extension TechniqueID {
                 romaji: "Haishu-uke",
                 french: "Blocage avec le dos de la main",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haishu-uke-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HaishuUke.jpg",
                 description: "Blocage circulaire effectué avec le dos de la main ouverte."
             )
 
@@ -920,7 +920,7 @@ extension TechniqueID {
                 romaji: "Heiko-uke",
                 french: "Blocage double parallèle",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/2570119303-2.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HeikoUke.jpg",
                 description: "Défense double avec les deux bras parallèles sur une même ligne horizontale."
             )
 
@@ -930,7 +930,7 @@ extension TechniqueID {
                 romaji: "Jodan-age-uke",
                 french: "Blocage montant haut",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-aje-uke.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_JodanAgeUke.jpg",
                 description: "Blocage vers le haut avec la partie externe de l'avant-bras pour protéger la tête."
             )
 
@@ -940,7 +940,7 @@ extension TechniqueID {
                 romaji: "Juji-uke",
                 french: "Blocage croisé",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-juji-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Juji-uke.jpg",
                 description: "Défense double avec les deux bras croisés."
             )
 
@@ -950,7 +950,7 @@ extension TechniqueID {
                 romaji: "Jodan-juji-uke",
                 french: "Blocage croisé haut",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-juji-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Juji-ukeK01.jpg",
                 description: "Blocage croisé des mains au niveau du visage."
             )
 
@@ -960,7 +960,7 @@ extension TechniqueID {
                 romaji: "Gedan-juji-uke",
                 french: "Blocage croisé bas",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/godan-juji-uke-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Juji-ukeKen01.jpg",
                 description: "Blocage bas avec les poignets croisés."
             )
 
@@ -970,7 +970,7 @@ extension TechniqueID {
                 romaji: "Kakiwake-uke",
                 french: "Blocage double d'écartement",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kakiwake-2.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_KakiwakeUke00.jpg",
                 description: "Les avant-bras écartent une attaque ou une double saisie de l'intérieur vers l'extérieur."
             )
 
@@ -980,7 +980,7 @@ extension TechniqueID {
                 romaji: self == .kokenUke ? "Koken-uke" : "Kakuto-uke",
                 french: "Blocage avec le poignet plié",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kakutouke-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_KokenUke.jpg",
                 description: "Blocage utilisant le dessus du poignet fortement plié."
             )
 
@@ -990,7 +990,7 @@ extension TechniqueID {
                 romaji: "Manji-uke",
                 french: "Blocage manji",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/manji-uke-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ManjiUke.jpg",
                 description: "Un bras exécute gedan-barai et l'autre un uchi-ude-uke haut."
             )
 
@@ -1000,7 +1000,7 @@ extension TechniqueID {
                 romaji: "Morote-uchi-uke",
                 french: "Blocage renforcé",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/morote-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MoroteUke.jpg",
                 description: "Uchi-ude-uke renforcé par l'autre main posée sur l'avant-bras."
             )
 
@@ -1010,7 +1010,7 @@ extension TechniqueID {
                 romaji: "Morote-uke",
                 french: "Blocage double des avant-bras",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/morote-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MoroteUke.jpg",
                 description: "Blocage de l'intérieur vers l'extérieur exécuté avec les deux avant-bras ; le bras arrière reste plaqué contre le buste pour renforcer la parade, sans le soutenir directement comme dans morote-uchi-uke."
             )
 
@@ -1020,7 +1020,7 @@ extension TechniqueID {
                 romaji: "Nagashi-uke",
                 french: "Blocage balayé",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haiwan-nagachi-uke-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_NagashiUke04.jpg",
                 description: "La défense accompagne l'attaque adverse au lieu de la stopper brutalement."
             )
 
@@ -1050,7 +1050,7 @@ extension TechniqueID {
                 romaji: "Osae-uke",
                 french: "Blocage poussé vers le bas",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/osae-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_OsaeUke.jpg",
                 description: "Blocage descendant avec la paume dirigée vers le bas."
             )
 
@@ -1060,7 +1060,7 @@ extension TechniqueID {
                 romaji: "Otoshi-uke",
                 french: "Blocage descendant",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/otoshiuke-2.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_OtoshiUke.jpg",
                 description: "Blocage avec le tranchant externe de l'avant-bras dans un mouvement du haut vers le bas."
             )
 
@@ -1070,7 +1070,7 @@ extension TechniqueID {
                 romaji: "Shuto-age-uke",
                 french: "Blocage montant en sabre de main",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/jodan-shuto-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoJodanAgeUke.jpg",
                 description: "Blocage préparatoire réalisé main ouverte, remontant devant le visage avant d'enchaîner, en général, sur un blocage montant classique (jodan-age-uke)."
             )
 
@@ -1080,7 +1080,7 @@ extension TechniqueID {
                 romaji: "Shuto-uke",
                 french: "Blocage en sabre de main",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kokutsu-shuto-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUke.jpg",
                 description: "Blocage latéral effectué avec le tranchant de la main, généralement en kokutsu-dachi."
             )
 
@@ -1090,7 +1090,7 @@ extension TechniqueID {
                 romaji: "Soto-ude-uke",
                 french: "Blocage extérieur-intérieur",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/soto-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SotoUke.jpg",
                 description: "Mouvement circulaire de l'extérieur vers l'intérieur avec le côté externe de l'avant-bras."
             )
 
@@ -1100,7 +1100,7 @@ extension TechniqueID {
                 romaji: "Sukui-uke",
                 french: "Blocage en cuillère",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sukui-uke-handflaeche-2.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SukuiUke.jpg",
                 description: "Défense main ouverte destinée notamment à ramasser et soulever une jambe adverse."
             )
 
@@ -1110,7 +1110,7 @@ extension TechniqueID {
                 romaji: "Uchi-sukui-uke",
                 french: "Blocage en cuillère intérieur-extérieur",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sukui-uke-handflaeche-2.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SukuiUke.jpg",
                 description: "Variante de sukui-uke allant de l'intérieur vers l'extérieur."
             )
 
@@ -1120,7 +1120,7 @@ extension TechniqueID {
                 romaji: "Soto-sukui-uke",
                 french: "Blocage en cuillère extérieur-intérieur",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/sukui-uke-handflaeche-2.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SukuiUke.jpg",
                 description: "Variante de sukui-uke allant de l'extérieur vers l'intérieur."
             )
 
@@ -1130,7 +1130,7 @@ extension TechniqueID {
                 romaji: "Tate-shuto-uke",
                 french: "Blocage vertical en sabre de main",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tate-shuto-uke-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TateShutoUke.jpg",
                 description: "Blocage utilisant une large trajectoire intérieure-extérieure avec le tranchant de la main."
             )
 
@@ -1140,7 +1140,7 @@ extension TechniqueID {
                 romaji: "Teisho-uke",
                 french: "Blocage avec le talon de la paume",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-6.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TeishoUke.jpg",
                 description: "Blocage main ouverte avec la partie charnue de la paume."
             )
 
@@ -1150,7 +1150,7 @@ extension TechniqueID {
                 romaji: "Uchi-ude-uke",
                 french: "Blocage intérieur-extérieur",
                 category: .uke,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/uchi-uke1-1.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UchiUke.jpg",
                 description: "Mouvement circulaire de l'intérieur vers l'extérieur avec la partie interne de l'avant-bras."
             )
 
@@ -1164,7 +1164,7 @@ extension TechniqueID {
                 romaji: "Age-zuki",
                 french: "Coup de poing remontant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/agetsuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_AgeZuki05.jpg",
                 description: "Coup de poing remontant sur une trajectoire circulaire, généralement vers le menton."
             )
 
@@ -1174,7 +1174,7 @@ extension TechniqueID {
                 romaji: "Choku-zuki",
                 french: "Coup de poing direct",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/choku-tsuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ChokuZuki.jpg",
                 description: "Coup de poing rectiligne avec rotation complète du poignet à l'impact."
             )
 
@@ -1184,7 +1184,7 @@ extension TechniqueID {
                 romaji: "Gyaku-zuki",
                 french: "Coup de poing inversé",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/gyaku-tsuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Gyaku_zuki.jpg",
                 description: "Coup de poing avec le bras opposé à la jambe avant, accompagné d'une rotation des hanches."
             )
 
@@ -1194,7 +1194,7 @@ extension TechniqueID {
                 romaji: "Kagi-zuki",
                 french: "Coup de poing en crochet",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kagi-tsuki-1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_KagiZuki.jpg",
                 description: "Coup de poing en crochet dans un plan parallèle à la poitrine."
             )
 
@@ -1204,7 +1204,7 @@ extension TechniqueID {
                 romaji: "Kizami-zuki",
                 french: "Coup de poing avant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kizami.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_KizamiZuki.jpg",
                 description: "Coup de poing avant effectué sur place ou avec yori-ashi."
             )
 
@@ -1214,7 +1214,7 @@ extension TechniqueID {
                 romaji: "Maete-zuki",
                 french: "Coup de poing avant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maete.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeteZuki05.jpg",
                 description: "Coup de poing avec le bras avant, sur place ou avec yori-ashi."
             )
 
@@ -1224,7 +1224,7 @@ extension TechniqueID {
                 romaji: self == .mawashiZuki ? "Mawashi-zuki" : "Furi-zuki",
                 french: "Coup de poing circulaire",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-tsuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiZuki05.jpg",
                 description: "Coup de poing circulaire de l'extérieur vers l'intérieur."
             )
 
@@ -1234,7 +1234,7 @@ extension TechniqueID {
                 romaji: "Morote-zuki",
                 french: "Double coup de poing",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-tsuki.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HeikoZuki.jpg",
                 description: "Deux poings frappent simultanément."
             )
 
@@ -1244,7 +1244,7 @@ extension TechniqueID {
                 romaji: "Heiko-zuki",
                 french: "Double coup de poing parallèle",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/heiko-tsuki.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HeikoZuki.jpg",
                 description: "Les deux poings arrivent au même niveau sur une trajectoire horizontale."
             )
 
@@ -1254,7 +1254,7 @@ extension TechniqueID {
                 romaji: "Hasami-zuki",
                 french: "Double coup de poing en ciseaux",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hasami-tsuki-2.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HasamiZuki.jpg",
                 description: "Les deux poings frappent selon deux trajectoires circulaires convergentes."
             )
 
@@ -1264,7 +1264,7 @@ extension TechniqueID {
                 romaji: "Morote-ura-zuki",
                 french: "Double ura-zuki",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/morote-ura-tsuki.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MoroteUraZuki05.jpg",
                 description: "Deux poings frappent simultanément sur une trajectoire ascendante."
             )
 
@@ -1274,7 +1274,7 @@ extension TechniqueID {
                 romaji: "Awase-zuki",
                 french: "Double coup de poing à deux niveaux",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/awase-tsuki.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_AwaseZuki.jpg",
                 description: "Les deux poings frappent simultanément à deux hauteurs différentes."
             )
 
@@ -1284,7 +1284,7 @@ extension TechniqueID {
                 romaji: "Yama-zuki",
                 french: "Double coup de poing montagne",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yama-tsuki.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_YamaZuki.jpg",
                 description: "Double frappe à deux niveaux avec rotation des hanches amenant le buste de profil."
             )
 
@@ -1294,7 +1294,7 @@ extension TechniqueID {
                 romaji: "Nagashi-zuki",
                 french: "Coup de poing avec esquive",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nagashi.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_NagashiZuki05.jpg",
                 description: "Coup de poing avant accompagné d'une esquive du corps juste avant l'impact."
             )
 
@@ -1304,7 +1304,7 @@ extension TechniqueID {
                 romaji: "Nukite",
                 french: "Pique de doigts",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nukite-4.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
                 description: "Frappe directe avec le bout des doigts vers les points sensibles."
             )
 
@@ -1314,7 +1314,7 @@ extension TechniqueID {
                 romaji: "Gohon-nukite",
                 french: "Pique à cinq doigts",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nukite-4.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
                 description: "Nukite exécuté avec les cinq doigts alignés."
             )
 
@@ -1324,7 +1324,7 @@ extension TechniqueID {
                 romaji: "Ippon-nukite",
                 french: "Pique à un doigt",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nukite-4.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
                 description: "Nukite effectué avec un seul doigt."
             )
 
@@ -1334,7 +1334,7 @@ extension TechniqueID {
                 romaji: "Nihon-nukite",
                 french: "Pique à deux doigts",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nukite-4.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
                 description: "Nukite effectué avec deux doigts, en fourchette ou en pince."
             )
 
@@ -1344,7 +1344,7 @@ extension TechniqueID {
                 romaji: "Yohon-nukite",
                 french: "Pique à quatre doigts",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nukite-4.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
                 description: "Nukite effectué avec quatre doigts."
             )
 
@@ -1354,7 +1354,7 @@ extension TechniqueID {
                 romaji: self == .oiZuki ? "Oi-zuki" : "Jun-zuki",
                 french: "Coup de poing en avançant",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/oi-tsuki-1.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_OiZuki.jpg",
                 description: "Coup de poing direct exécuté avec un pas en avant."
             )
 
@@ -1374,7 +1374,7 @@ extension TechniqueID {
                 romaji: "Tate-zuki",
                 french: "Coup de poing vertical",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tate-tsuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TateZuki04.jpg",
                 description: "Coup de poing direct avec rotation partielle du poignet, laissant le poing vertical."
             )
 
@@ -1394,7 +1394,7 @@ extension TechniqueID {
                 romaji: "Ura-zuki",
                 french: "Coup de poing paume vers le haut",
                 category: .tsuki,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ura-tsuki.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UraZuki06.jpg",
                 description: "Coup direct avec la paume tournée vers le haut, sans rotation du poignet à l'impact."
             )
 
@@ -1418,7 +1418,7 @@ extension TechniqueID {
                 romaji: "Empi-uchi",
                 french: "Frappe de coude",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/empi-uchi1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_EmpiUchi.jpg",
                 description: "Percussion effectuée avec le coude."
             )
 
@@ -1428,7 +1428,7 @@ extension TechniqueID {
                 romaji: "Mae-empi-uchi",
                 french: "Coude circulaire avant",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/empi-uchi1.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeEmpiUchi.jpg",
                 description: "Coup de coude circulaire vers l'avant."
             )
 
@@ -1438,7 +1438,7 @@ extension TechniqueID {
                 romaji: "Otoshi-empi-uchi",
                 french: "Coude descendant",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/otoshi-empi-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_OtoshiEmpiUchi.jpg",
                 description: "Coup de coude écrasant vers le bas."
             )
 
@@ -1448,7 +1448,7 @@ extension TechniqueID {
                 romaji: "Tate-empi-uchi",
                 french: "Coude remontant",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/empi-uchi2.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TateEmpiUchi.jpg",
                 description: "Coup de coude remontant."
             )
 
@@ -1458,7 +1458,7 @@ extension TechniqueID {
                 romaji: "Ushiro-empi-uchi",
                 french: "Coude arrière",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/empi-uchi4.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UshiroEmpiUchi.jpg",
                 description: "Coup de coude vers l'arrière, notamment pour se dégager d'une saisie."
             )
 
@@ -1468,7 +1468,7 @@ extension TechniqueID {
                 romaji: "Yoko-empi-uchi",
                 french: "Coude latéral",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/empi-uchi3.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_YokoEmpiUchi.jpg",
                 description: "Coup de coude latéral en ligne directe."
             )
 
@@ -1488,7 +1488,7 @@ extension TechniqueID {
                 romaji: "Haishu-uchi",
                 french: "Frappe du dos de la main",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haishu-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HaishuUchi.jpg",
                 description: "Frappe avec le dos de la main ouverte dans un mouvement circulaire."
             )
 
@@ -1498,7 +1498,7 @@ extension TechniqueID {
                 romaji: "Haito-uchi",
                 french: "Frappe du tranchant interne",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/haito-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_HaitoUchi05.jpg",
                 description: "Frappe avec le tranchant interne de la main, côté pouce."
             )
 
@@ -1508,7 +1508,7 @@ extension TechniqueID {
                 romaji: self == .kokenUchi ? "Koken-uchi" : "Kakuto-uchi",
                 french: "Frappe du poignet plié",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kakuto-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_KokenUke.jpg",
                 description: "Frappe effectuée avec le dessus du poignet fortement plié."
             )
 
@@ -1518,7 +1518,7 @@ extension TechniqueID {
                 romaji: "Shuto-uchi",
                 french: "Frappe du sabre de la main",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/shuto-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUchi.jpg",
                 description: "Frappe avec le tranchant externe de la main ouverte."
             )
 
@@ -1528,7 +1528,7 @@ extension TechniqueID {
                 romaji: "Mawashi-shuto-uchi",
                 french: "Sabar de main circulaire intérieur-extérieur",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/shuto-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUchi.jpg",
                 description: "Shuto-uchi allant de l'intérieur vers l'extérieur."
             )
 
@@ -1538,7 +1538,7 @@ extension TechniqueID {
                 romaji: "Soto-shuto-uchi",
                 french: "Sabar de main extérieur-intérieur",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/shuto-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUchi.jpg",
                 description: "Shuto-uchi allant de l'extérieur vers l'intérieur."
             )
 
@@ -1548,7 +1548,7 @@ extension TechniqueID {
                 romaji: "Hasami-shuto-uchi",
                 french: "Double sabre en ciseaux",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/shuto-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUchi.jpg",
                 description: "Double frappe shuto effectuée en ciseaux."
             )
 
@@ -1558,7 +1558,7 @@ extension TechniqueID {
                 romaji: "Teisho-uchi",
                 french: "Frappe du talon de la paume",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/teisho-uchi2.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TeishoUchi.jpg",
                 description: "Percussion avec le talon de la paume."
             )
 
@@ -1578,7 +1578,7 @@ extension TechniqueID {
                 romaji: "Tettsui-uchi",
                 french: "Frappe en marteau",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tetsui-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TettsuiUchi.jpg",
                 description: "Frappe circulaire avec la main en marteau."
             )
 
@@ -1588,7 +1588,7 @@ extension TechniqueID {
                 romaji: "Morote-tettsui-uchi",
                 french: "Double frappe en marteau",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tetsui-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TettsuiUchi.jpg",
                 description: "Double tettsui frappant simultanément les flancs."
             )
 
@@ -1598,7 +1598,7 @@ extension TechniqueID {
                 romaji: "Hasami-tettsui-uchi",
                 french: "Double marteau en ciseaux",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tetsui-uchi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TettsuiUchi.jpg",
                 description: "Double frappe tettsui indirecte en ciseaux."
             )
 
@@ -1608,7 +1608,7 @@ extension TechniqueID {
                 romaji: "Uraken-uchi",
                 french: "Frappe du revers du poing",
                 category: .uchi,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/tate-uraken-uchi.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UrakenUchi02.jpg",
                 description: "Frappe circulaire avec le dos du poing, exécutée comme un fouet."
             )
 
@@ -1662,7 +1662,7 @@ extension TechniqueID {
                 romaji: "Ashi-barai",
                 french: "Balayage de jambe",
                 category: .barai,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ashi-barai-mae.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_AshiBarai.jpg",
                 description: "Balayage avec le côté interne du pied."
             )
 
@@ -1672,7 +1672,7 @@ extension TechniqueID {
                 romaji: "Mae-ashi-barai",
                 french: "Balayage avec la jambe avant",
                 category: .barai,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ashi-barai-mae.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_AshiBarai.jpg",
                 description: "Ashi-barai effectué avec la jambe avant."
             )
 
@@ -1692,7 +1692,7 @@ extension TechniqueID {
                 romaji: "Tobi-ashi-barai",
                 french: "Balayage sauté",
                 category: .barai,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ashi-barai-mae.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_AshiBarai.jpg",
                 description: "Balayage de jambe effectué en sautant."
             )
 
@@ -1702,7 +1702,7 @@ extension TechniqueID {
                 romaji: "Ushiro-mawashi-barai",
                 french: "Balayage tournant arrière",
                 category: .barai,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashigeri-ura.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Ushiro-mawashi-barai07.jpg",
                 description: "Balayage tournant vers l'arrière effectué avec le talon dans un large mouvement circulaire."
             )
 
@@ -1716,7 +1716,7 @@ extension TechniqueID {
                 romaji: "Fumikiri",
                 french: "Coup de pied coupant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikiri.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Fumikiri.jpg",
                 description: "Coup de pied bas oblique donné avec le tranchant interne ou externe du pied."
             )
 
@@ -1726,7 +1726,7 @@ extension TechniqueID {
                 romaji: "Fumikomi-geri",
                 french: "Coup de pied écrasant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikomi-empi-uke-1.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Fumikomi.jpg",
                 description: "Coup de pied oblique et écrasant donné avec le tranchant, le talon ou la plante du pied."
             )
 
@@ -1736,7 +1736,7 @@ extension TechniqueID {
                 romaji: "Gedan-geri",
                 french: "Coup de pied bas",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikomi-empi-uke-1.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Fumikomi.jpg",
                 description: "Frappe basse avec le tranchant interne du pied."
             )
 
@@ -1746,7 +1746,7 @@ extension TechniqueID {
                 romaji: "Sokuto-fumikomi",
                 french: "Coup écrasant du tranchant externe",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikomi-empi-uke-1.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Fumikomi.jpg",
                 description: "Frappe écrasante avec le tranchant externe du pied."
             )
 
@@ -1756,7 +1756,7 @@ extension TechniqueID {
                 romaji: "Kansetsu-geri",
                 french: "Coup de pied à l'articulation",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikomi-empi-uke-1.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Fumikomi.jpg",
                 description: "Frappe dirigée vers le côté du genou."
             )
 
@@ -1766,7 +1766,7 @@ extension TechniqueID {
                 romaji: "Ushiro-fumikomi",
                 french: "Coup écrasant arrière",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/fumikomi-empi-uke-1.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Fumikomi.jpg",
                 description: "Frappe du talon vers la cheville ou le pied de l'adversaire."
             )
 
@@ -1776,7 +1776,7 @@ extension TechniqueID {
                 romaji: self == .hizaGeri ? "Hiza-geri" : "Hitsui-geri",
                 french: "Coup de genou",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/hizagueri-mae.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Hisa_geri.jpg",
                 description: "Percussion avec le genou, particulièrement adaptée au corps-à-corps."
             )
 
@@ -1786,7 +1786,7 @@ extension TechniqueID {
                 romaji: "Kakato-geri",
                 french: "Coup de talon",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/kakatogueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Kakato_geri.jpg",
                 description: "Attaque effectuée avec le talon."
             )
 
@@ -1806,7 +1806,7 @@ extension TechniqueID {
                 romaji: "Mae-geri",
                 french: "Coup de pied avant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Coup de pied direct vers l'avant, généralement avec le koshi."
             )
 
@@ -1816,7 +1816,7 @@ extension TechniqueID {
                 romaji: self == .maeAshiMaeGeri ? "Mae-ashi-mae-geri" : "Kizami-mae-geri",
                 french: "Mae-geri jambe avant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Mae_ashi_mae_geri.jpg",
                 description: "Mae-geri donné avec le pied avant."
             )
 
@@ -1826,7 +1826,7 @@ extension TechniqueID {
                 romaji: "Ushiro-ashi-mae-geri",
                 french: "Mae-geri jambe arrière",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Mae-geri effectué avec la jambe arrière."
             )
 
@@ -1836,7 +1836,7 @@ extension TechniqueID {
                 romaji: "Mae-geri-keage",
                 french: "Mae-geri fouetté",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Coup de pied direct fouetté vers l'avant, ramené rapidement."
             )
 
@@ -1846,7 +1846,7 @@ extension TechniqueID {
                 romaji: "Mae-sokuto-geri",
                 french: "Coup de pied avant au tranchant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Coup de pied direct avec le tranchant externe du pied."
             )
 
@@ -1856,7 +1856,7 @@ extension TechniqueID {
                 romaji: "Nidan-geri",
                 french: "Double coup de pied sauté",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Coup de pied sauté enchaînant deux mae-geri à deux niveaux."
             )
 
@@ -1866,7 +1866,7 @@ extension TechniqueID {
                 romaji: "Surikonde-mae-geri",
                 french: "Mae-geri après pas chassé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Mae-geri effectué après un pas chassé."
             )
 
@@ -1876,7 +1876,7 @@ extension TechniqueID {
                 romaji: "Tobikonde-mae-geri",
                 french: "Mae-geri après pas croisé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/maegueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
                 description: "Mae-geri effectué après un pas croisé."
             )
 
@@ -1896,7 +1896,7 @@ extension TechniqueID {
                 romaji: "Mawashi-geri",
                 french: "Coup de pied circulaire",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-gueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
                 description: "Coup de pied circulaire de l'extérieur vers l'intérieur."
             )
 
@@ -1908,7 +1908,7 @@ extension TechniqueID {
                     : "Kizami-mawashi-geri",
                 french: "Mawashi-geri jambe avant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-gueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
                 description: "Mawashi-geri donné avec la jambe avant."
             )
 
@@ -1918,7 +1918,7 @@ extension TechniqueID {
                 romaji: "Ushiro-ashi-mawashi-geri",
                 french: "Mawashi-geri jambe arrière",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-gueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
                 description: "Mawashi-geri donné avec la jambe arrière."
             )
 
@@ -1928,7 +1928,7 @@ extension TechniqueID {
                 romaji: "Kasei-mawashi-geri",
                 french: "Mawashi-geri en contre-plongée",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-gueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
                 description: "Mawashi-geri délivré par-dessous ou depuis le sol."
             )
 
@@ -1938,7 +1938,7 @@ extension TechniqueID {
                 romaji: "Surikonde-mawashi-geri",
                 french: "Mawashi-geri après pas chassé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-gueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
                 description: "Mawashi-geri effectué après un pas chassé."
             )
 
@@ -1948,7 +1948,7 @@ extension TechniqueID {
                 romaji: "Tobikonde-mawashi-geri",
                 french: "Mawashi-geri après pas croisé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashi-gueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
                 description: "Mawashi-geri effectué après un pas croisé."
             )
 
@@ -1968,7 +1968,7 @@ extension TechniqueID {
                 romaji: "Mikazuki-geri",
                 french: "Coup de pied en croissant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mikazukigueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Mikazuki_geri.jpg",
                 description: "Coup de pied en croissant avec la plante du pied, de l'extérieur vers l'intérieur."
             )
 
@@ -1978,7 +1978,7 @@ extension TechniqueID {
                 romaji: "Gyaku-mikazuki-geri",
                 french: "Croissant inversé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mikazukigueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Gyaku_mikazuki_geri.jpg",
                 description: "Coup de pied en croissant de l'intérieur vers l'extérieur."
             )
 
@@ -1988,7 +1988,7 @@ extension TechniqueID {
                 romaji: "Surikonde-mikazuki-geri",
                 french: "Mikazuki-geri après pas chassé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mikazukigueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Mikazuki_geri.jpg",
                 description: "Mikazuki-geri effectué après un pas chassé."
             )
 
@@ -1998,7 +1998,7 @@ extension TechniqueID {
                 romaji: "Tobikonde-mikazuki-geri",
                 french: "Mikazuki-geri après pas croisé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mikazukigueri.png?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Mikazuki_geri.jpg",
                 description: "Mikazuki-geri effectué après un pas croisé."
             )
 
@@ -2008,7 +2008,7 @@ extension TechniqueID {
                 romaji: "Nami-ashi",
                 french: "Coup de pied en vague",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/nami-ashi.jpg?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_NamiGaeshi.jpg",
                 description: "Mouvement remontant avec la plante du pied, notamment utilisé pour balayer une attaque basse."
             )
 
@@ -2038,7 +2038,7 @@ extension TechniqueID {
                 romaji: "Tobi-yoko-geri",
                 french: "Coup de pied latéral sauté",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-tobi-gueri.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_TobiYokoGeri.jpg",
                 description: "Coup de pied latéral effectué en sautant."
             )
 
@@ -2048,7 +2048,7 @@ extension TechniqueID {
                 romaji: "Ura-mawashi-geri",
                 french: "Coup de pied circulaire inversé",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/mawashigeri-ura.gif?fx=r_200_200",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UraMawashiGeri.jpg",
                 description: "Coup de pied en revers tournant, de l'intérieur vers l'extérieur, avec la plante ou le talon."
             )
 
@@ -2058,7 +2058,7 @@ extension TechniqueID {
                 romaji: "Ushiro-geri",
                 french: "Coup de pied arrière",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ushiro-gueri.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Ushiro-geri.jpg",
                 description: "Coup de pied direct vers l'arrière donné avec le talon."
             )
 
@@ -2068,7 +2068,7 @@ extension TechniqueID {
                 romaji: "Mae-ashi-ushiro-geri",
                 french: "Coup de pied arrière jambe avant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ushiro-gueri.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Ushiro-geri.jpg",
                 description: "Ushiro-geri effectué avec la jambe avant."
             )
 
@@ -2078,7 +2078,7 @@ extension TechniqueID {
                 romaji: "Ushiro-ashi-ushiro-geri",
                 french: "Coup de pied arrière jambe arrière",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ushiro-gueri.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Ushiro-geri.jpg",
                 description: "Ushiro-geri effectué avec la jambe arrière."
             )
 
@@ -2088,7 +2088,7 @@ extension TechniqueID {
                 romaji: "Ushiro-geri-kekomi",
                 french: "Coup de pied arrière pénétrant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/ushiro-gueri.png",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_UshiroGeriKekomi.jpg",
                 description: "Frappe pénétrante du talon ou du tranchant du pied."
             )
 
@@ -2098,7 +2098,7 @@ extension TechniqueID {
                 romaji: "Yoko-geri",
                 french: "Coup de pied latéral",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Yoko-geri.jpg",
                 description: "Coup de pied latéral avec le tranchant externe du pied ou le talon."
             )
 
@@ -2118,7 +2118,7 @@ extension TechniqueID {
                 romaji: "Yoko-geri-kekomi",
                 french: "Coup de pied latéral pénétrant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Yoko-geri.jpg",
                 description: "Coup de pied latéral pénétrant avec poussée des hanches."
             )
 
@@ -2128,7 +2128,7 @@ extension TechniqueID {
                 romaji: "Mae-ashi-yoko-geri",
                 french: "Yoko-geri jambe avant",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Yoko-geri.jpg",
                 description: "Coup de pied latéral donné avec la jambe avant."
             )
 
@@ -2138,7 +2138,7 @@ extension TechniqueID {
                 romaji: "Ushiro-ashi-yoko-geri",
                 french: "Yoko-geri jambe arrière",
                 category: .geri,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-gueri-kekomi.jpg",
+                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Yoko-geri.jpg",
                 description: "Coup de pied latéral donné avec la jambe arrière."
             )
         }
