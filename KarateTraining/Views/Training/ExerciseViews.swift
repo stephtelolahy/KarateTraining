@@ -162,8 +162,8 @@ struct StepCard: View {
                 Text(step.techniques.map(\.definition.french).joined(separator: " + ")).font(.subheadline).foregroundStyle(.secondary)
 
                 HStack(spacing: 6) {
-                    if let target = step.target {
-                        Chip(text: target.title, systemImage: "scope")
+                    if let levelText = step.levelText {
+                        Chip(text: levelText, systemImage: "scope")
                     }
                     if let stance {
                         Chip(text: stanceText(for: stance), systemImage: "figure.stand")
