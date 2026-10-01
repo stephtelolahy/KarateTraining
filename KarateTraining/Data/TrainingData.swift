@@ -246,24 +246,24 @@ private extension Exercise {
             notes: "Paix et tranquillité — 1er niveau. 21 mouvements, kiai aux mouvements 9 et 17.",
             steps: [
                 // 1–5
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .hidari),
                 Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .migi),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .migi),
                 Step(role: .attack, techniques: [.tettsuiUchi], target: .chudan, stance: .renojiDachi, side: .migi),
                 Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi, side: .hidari),
 
                 // 6–9
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
-                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi, side: .hidari),
-                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi, side: .migi),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.jodanAgeUke], stance: .zenkutsuDachi, side: .migi),
+                Step(role: .defense, techniques: [.jodanAgeUke], stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.jodanAgeUke], stance: .zenkutsuDachi, side: .migi),
 
                 // 10–14
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .hidari),
                 Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .migi),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .migi),
                 Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi, side: .hidari),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .hidari),
 
                 // 15–17
                 Step(role: .attack, techniques: [.oiZuki], target: .chudan, stance: .zenkutsuDachi, side: .migi),
@@ -316,10 +316,10 @@ private extension Exercise {
 
                 // 17–21 (kiai au mouvement 21)
                 Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .zenkutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
-                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.jodanAgeUke], target: .jodan, stance: .zenkutsuDachi, side: .hidari)
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.jodanAgeUke], stance: .zenkutsuDachi, side: .migi),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .migi),
+                Step(role: .defense, techniques: [.jodanAgeUke], stance: .zenkutsuDachi, side: .hidari)
             ]
         )
     }
@@ -381,7 +381,7 @@ private extension Exercise {
                 // 1–4
                 Step(role: .defense, techniques: [.haiwanUke], target: .jodan, stance: .kokutsuDachi, side: .hidari),
                 Step(role: .defense, techniques: [.haiwanUke], target: .jodan, stance: .kokutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanJujiUke], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanJujiUke], stance: .zenkutsuDachi, side: .hidari),
                 Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kokutsuDachi, side: .migi),
 
                 // 5–8
@@ -391,7 +391,7 @@ private extension Exercise {
                 Step(role: .attack, techniques: [.urakenUchi, .yokoGeriKeage, .maeEmpiUchi], target: .jodan, stance: .zenkutsuDachi, side: .migi),
 
                 // 9–11 (kiai au mouvement 11)
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .zenkutsuDachi, side: .hidari),
                 Step(role: .defense, techniques: [.shutoUke, .gyakuHanmi], target: .jodan, stance: .zenkutsuDachi, side: .migi),
                 Step(role: .attack, techniques: [.maeGeriKeage, .osaeUke, .tateUrakenUchi], target: .chudan, stance: .kosaDachi, side: .migi),
 
@@ -437,12 +437,12 @@ private extension Exercise {
 
                 // 7–10 (kiai au mouvement 10)
                 Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kokutsuDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanJujiUke], target: .gedan, stance: .zenkutsuDachi, side: .hidari),
-                Step(role: .defense, techniques: [.jodanJujiUke], target: .jodan, stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanJujiUke], stance: .zenkutsuDachi, side: .hidari),
+                Step(role: .defense, techniques: [.jodanJujiUke], stance: .zenkutsuDachi, side: .hidari),
                 Step(role: .attack, techniques: [.osaeUke, .chokuZuki, .oiZuki], target: .chudan, stance: .zenkutsuDachi, side: .hidari),
 
                 // 11–15
-                Step(role: .defense, techniques: [.fumikomiGeri, .gedanBarai], target: .gedan, stance: .kibaDachi, side: .migi),
+                Step(role: .defense, techniques: [.fumikomiGeri, .gedanBarai], stance: .kibaDachi, side: .migi),
                 Step(role: .defense, techniques: [.haishuUke], target: .chudan, stance: .kibaDachi, side: .hidari),
                 Step(role: .attack, techniques: [.mikazukiGeri, .maeEmpiUchi], target: .chudan, stance: .kibaDachi, side: .migi),
                 Step(role: .defense, techniques: [.moroteUke], target: .chudan, stance: .kosaDachi, side: .migi),
@@ -477,7 +477,7 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.fumikomiGeri, .haishuUke], target: .chudan, stance: .kibaDachi, side: .migi),
                 Step(role: .attack, techniques: [.yokoMawashiEmpiUchi], target: .chudan, stance: .kibaDachi, side: .hidari),
                 Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi, side: .migi),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .kibaDachi, side: .hidari),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .kibaDachi, side: .hidari),
                 Step(role: .attack, techniques: [.kagiZuki], target: .chudan, stance: .kibaDachi, side: .migi),
 
                 // 7–13 (kiai au mouvement 13)
@@ -493,7 +493,7 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.haishuUke], target: .chudan, stance: .kibaDachi, side: .hidari),
                 Step(role: .attack, techniques: [.yokoMawashiEmpiUchi], target: .chudan, stance: .kibaDachi, side: .migi),
                 Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi, side: .hidari),
-                Step(role: .defense, techniques: [.gedanBarai], target: .gedan, stance: .kibaDachi, side: .migi),
+                Step(role: .defense, techniques: [.gedanBarai], stance: .kibaDachi, side: .migi),
                 Step(role: .attack, techniques: [.kagiZuki], target: .chudan, stance: .kibaDachi, side: .hidari),
 
                 // 19–25 (kiai au mouvement 25)
