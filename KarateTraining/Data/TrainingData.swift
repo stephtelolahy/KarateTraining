@@ -484,8 +484,8 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.kosaDachi]),
                 Step(role: .defense, techniques: [.fumikomiGeri, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
                 Step(role: .attack, techniques: [.nagashiUke, .chokuZuki, .urakenUchi], target: .jodan, stance: .kibaDachi),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
                 Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi),
                 Step(role: .attack, techniques: [.moroteZuki], target: .chudan, stance: .kibaDachi),
 
@@ -500,8 +500,8 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.kosaDachi]),
                 Step(role: .defense, techniques: [.fumikomiGeri, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
                 Step(role: .attack, techniques: [.nagashiUke, .chokuZuki, .urakenUchi], target: .jodan, stance: .kibaDachi),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi),
                 Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi),
                 Step(role: .attack, techniques: [.moroteZuki], target: .chudan, stance: .kibaDachi)
             ]
