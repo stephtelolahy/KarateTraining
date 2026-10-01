@@ -5,6 +5,7 @@ import SwiftUI
 struct KihonListView: View {
     @Environment(ContentStore.self) private var store
     @State private var search = ""
+    @FocusState private var searchFocused: Bool
     @State private var scope: SearchScope = .all
 
     enum SearchScope: String, CaseIterable, Identifiable {
@@ -81,18 +82,40 @@ struct KihonListView: View {
                 if isEmpty { ContentUnavailableView.search(text: search) }
             }
             .navigationTitle("Kihon")
-            .searchable(
-                text: $search,
-                placement: .navigationBarDrawer(displayMode: .always),
-                prompt: "Techniques, katas, exercices"
-            )
-            .searchScopes($scope) {
-                ForEach(SearchScope.allCases) { Text($0.title).tag($0) }
-            }
-            .autocorrectionDisabled(true)
+            .safeAreaInset(edge: .bottom) { searchBar }
             .techniqueDestination()
             .navigationDestination(for: Exercise.self) { ExerciseDetailView(exercise: $0) }
         }
+    }
+
+    /// Champ de recherche fixé en bas de l'écran, au-dessus de la barre d'onglets.
+    private var searchBar: some View {
+        VStack(spacing: 8) {
+            if searchFocused || !search.isEmpty {
+                Picker("Portée", selection: $scope) {
+                    ForEach(SearchScope.allCases) { Text($0.title).tag($0) }
+                }
+                .pickerStyle(.segmented)
+            }
+            HStack {
+                Image(systemName: "magnifyingglass").foregroundStyle(.secondary)
+                TextField("Techniques, katas, exercices", text: $search)
+                    .focused($searchFocused)
+                    .submitLabel(.search)
+                    .autocorrectionDisabled(true)
+                if !search.isEmpty {
+                    Button("Effacer", systemImage: "xmark.circle.fill") { search = "" }
+                        .labelStyle(.iconOnly)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .padding(.horizontal, 14)
+            .padding(.vertical, 10)
+            .glassEffect(.regular.interactive(), in: .capsule)
+        }
+        .padding(.horizontal)
+        .padding(.bottom, 8)
+        .animation(.default, value: searchFocused || !search.isEmpty)
     }
 
     @ViewBuilder
