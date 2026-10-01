@@ -484,8 +484,8 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.kosaDachi], side: .hidari),
                 Step(role: .defense, techniques: [.fumikomiGeri, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .hidari),
                 Step(role: .attack, techniques: [.nagashiUke, .chokuZuki, .urakenUchi], target: .jodan, stance: .kibaDachi, side: .hidari),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .hidari),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .migi),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .hidari),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .migi),
                 Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi, side: .migi),
                 Step(role: .attack, techniques: [.moroteZuki], target: .chudan, stance: .kibaDachi, side: .hidari),
 
@@ -500,8 +500,8 @@ private extension Exercise {
                 Step(role: .defense, techniques: [.kosaDachi], side: .migi),
                 Step(role: .defense, techniques: [.fumikomiGeri, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .migi),
                 Step(role: .attack, techniques: [.nagashiUke, .chokuZuki, .urakenUchi], target: .jodan, stance: .kibaDachi, side: .migi),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .migi),
-                Step(role: .defense, techniques: [.namiAshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .hidari),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .migi),
+                Step(role: .defense, techniques: [.namiGaeshi, .uchiUdeUke], target: .chudan, stance: .kibaDachi, side: .hidari),
                 Step(role: .defense, techniques: [.koshiKamae], stance: .kibaDachi, side: .hidari),
                 Step(role: .attack, techniques: [.moroteZuki], target: .chudan, stance: .kibaDachi, side: .migi)
             ]
