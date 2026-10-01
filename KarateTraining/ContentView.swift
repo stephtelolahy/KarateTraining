@@ -7,12 +7,8 @@ struct ContentView: View {
                 TrainingListView()
             }
 
-            Tab("Kihon", systemImage: "figure.martial.arts") {
+            Tab("Kihon", systemImage: "magnifyingglass", role: .search) {
                 KihonListView()
-            }
-
-            Tab(role: .search) {
-                SearchView()
             }
         }
         .tabBarMinimizeBehavior(.onScrollDown)
