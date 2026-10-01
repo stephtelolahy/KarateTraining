@@ -7,6 +7,17 @@ extension Step {
         if let target { text += " \(target.rawValue)" }
         return text
     }
+
+    /// Côté et niveau, ex. « Hidari Chudan », « Migi » (sans niveau)
+    /// ou « Chudan (milieu) » (sans côté).
+    var levelText: String? {
+        switch (side, target) {
+        case let (side?, target?): "\(side.title) \(target.rawValue.capitalized)"
+        case let (side?, nil):     side.title
+        case let (nil, target?):   target.title
+        case (nil, nil):           nil
+        }
+    }
 }
 
 extension Exercise {
