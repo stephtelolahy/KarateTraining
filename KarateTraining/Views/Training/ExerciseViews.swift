@@ -148,19 +148,6 @@ struct StepCard: View {
         }
     }
 
-    @ViewBuilder
-    private var chips: some View {
-        if let target = step.target {
-            Chip(text: target.title, systemImage: "scope")
-        }
-        if let stance {
-            Chip(text: stanceText(for: stance), systemImage: "figure.stand")
-        }
-        if let side = step.side {
-            Chip(text: side.title, systemImage: "arrow.left.and.right")
-        }
-    }
-
     private var card: some View {
         HStack(alignment: .top, spacing: 12) {
             Text("\(number)")
@@ -174,10 +161,13 @@ struct StepCard: View {
                 Text(step.techniques.map(\.definition.romaji).joined(separator: " + ")).font(.headline).foregroundStyle(.primary)
                 Text(step.techniques.map(\.definition.french).joined(separator: " + ")).font(.subheadline).foregroundStyle(.secondary)
 
-                // Sur une ligne si possible, sinon les pastilles s'empilent.
-                ViewThatFits(in: .horizontal) {
-                    HStack(spacing: 6) { chips }
-                    VStack(alignment: .leading, spacing: 4) { chips }
+                HStack(spacing: 6) {
+                    if let levelText = step.levelText {
+                        Chip(text: levelText, systemImage: "scope")
+                    }
+                    if let stance {
+                        Chip(text: stanceText(for: stance), systemImage: "figure.stand")
+                    }
                 }
             }
             Spacer(minLength: 0)

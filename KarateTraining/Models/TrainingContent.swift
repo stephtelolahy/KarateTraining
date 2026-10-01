@@ -106,8 +106,8 @@ enum Side: String, Codable, CaseIterable, Hashable {
 
     var title: String {
         switch self {
-        case .migi:   "Migi (droite)"
-        case .hidari: "Hidari (gauche)"
+        case .migi:   "Migi"
+        case .hidari: "Hidari"
         }
     }
 }
