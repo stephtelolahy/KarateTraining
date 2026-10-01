@@ -3,12 +3,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            TrainingListView()
-                .tabItem { Label("Training", systemImage: "timer") }
+            Tab("Training", systemImage: "timer") {
+                TrainingListView()
+            }
 
-            KihonListView()
-                .tabItem { Label("Kihon", systemImage: "figure.martial.arts") }
+            Tab("Kihon", systemImage: "figure.martial.arts") {
+                KihonListView()
+            }
+
+            Tab(role: .search) {
+                SearchView()
+            }
         }
+        .tabBarMinimizeBehavior(.onScrollDown)
     }
 }
 

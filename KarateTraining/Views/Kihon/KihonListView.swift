@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct KihonListView: View {
-    @State private var search = ""
     @State private var selectedTechniqueID: TechniqueID?
 
     private struct CategorySection: Identifiable {
@@ -12,7 +11,7 @@ struct KihonListView: View {
 
     private var sections: [CategorySection] {
         TechniqueCategory.allCases.compactMap { category in
-            let items = TechniqueCatalog.techniques(in: category).filter { $0.matches(search) }
+            let items = TechniqueCatalog.techniques(in: category)
             return items.isEmpty ? nil : CategorySection(category: category, techniques: items)
         }
     }
@@ -32,16 +31,7 @@ struct KihonListView: View {
                     }
                 }
             }
-            .overlay {
-                if sections.isEmpty { ContentUnavailableView.search(text: search) }
-            }
             .navigationTitle("Kihon")
-            .searchable(
-                text: $search,
-                placement: .toolbarPrincipal,
-                prompt: "Rechercher une technique"
-            )
-            .autocorrectionDisabled(true)
         } detail: {
             if let selectedTechniqueID {
                 TechniqueDetailView(techniqueID: selectedTechniqueID)
