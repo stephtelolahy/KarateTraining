@@ -21,7 +21,7 @@ struct TechniqueDetailView: View {
                 if let imageURL = technique.imageURL,
                     let url = URL(string: imageURL) {
                     LabeledContent("Image") {
-                        CachedImage(url: url) { phase in
+                        AsyncImage(url: url) { phase in
                             switch phase {
                             case .empty:
                                 ProgressView()
