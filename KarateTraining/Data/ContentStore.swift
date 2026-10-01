@@ -93,6 +93,9 @@ private extension Exercise {
             if let stance = step.stance, stance.definition.category != .dachi {
                 issues.append("« \(stance.rawValue) » n'est pas une position (dachi)")
             }
+            if !step.sides.isEmpty, step.sides.count != step.techniques.count {
+                issues.append("« sides » doit indiquer un côté par technique")
+            }
         }
 
         switch type {
