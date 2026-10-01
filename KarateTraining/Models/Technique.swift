@@ -20,20 +20,14 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case gankakuKamae
     case gedanKamae
     case gyakuHanmi
-    case hizaKamae
     case jiaiKamae
     case jujiKamae
     case kaiunNoTe
     case kitsutsukiNoKamae
     case kokoKamae
-    case kosaKamae
     case koshiKamae
-    case soeteKoshiKamae
-    case haitoKoshiKamae
     case manjiKamae
     case mizuNagareNoKamae
-    case ryusuiKamae
-    case musoKamae
     case ryokenKoshiKamae
     case ryowanKamae
     case kaishuRyowanKamae
@@ -51,10 +45,8 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case kataHizaDachi
     case kibaDachi
     case kokutsuDachi
-    case kaseiKokutsuDachi
     case kosaDachi
     case kakeDachi
-    case motoDachi
     case musubiDachi
     case nekoAshiDachi
     case renojiDachi
@@ -64,7 +56,7 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case sochinDachi
     case teijiDachi
     case tsuruAshiDachi
-    case gangakuDachi
+    case gankakuDachi
     case uchiHachijiDachi
     case zenkutsuDachi
 
@@ -73,7 +65,6 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case ayumiAshi
     case hikiAshi
     case mawariAshi
-    case omawariAshi
     case okuriAshi
     case suriAshi
     case tsugiAshi
@@ -100,6 +91,7 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case moroteUke
     case moroteKubiOsae
     case nagashiUke
+    case namiGaeshi
     case teNagashiUke
     case haiwanNagashiUke
     case osaeUke
@@ -108,8 +100,6 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case shutoUke
     case sotoUdeUke
     case sukuiUke
-    case uchiSukuiUke
-    case sotoSukuiUke
     case tateShutoUke
     case teishoUke
     case uchiUdeUke
@@ -121,7 +111,6 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case gyakuZuki
     case kagiZuki
     case kizamiZuki
-    case maeteZuki
     case mawashiZuki
     case furiZuki
     case moroteZuki
@@ -132,12 +121,10 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case yamaZuki
     case nagashiZuki
     case nukite
-    case gohonNukite
     case ipponNukite
     case nihonNukite
-    case yohonNukite
+    case shihonNukite
     case oiZuki
-    case junZuki
     case otoshiZuki
     case tateZuki
     case teishoZuki
@@ -170,14 +157,13 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case tateUrakenUchi
     case urakenShomenUchi
     case yokoUrakenUchi
-    case seikenMawashiUchi
+    case urakenMawashiUchi
 
     // MARK: - Barai
 
     case ashiBarai
     case maeAshiBarai
     case ushiroAshiBarai
-    case tobiAshiBarai
     case ushiroMawashiBarai
 
     // MARK: - Geri
@@ -206,15 +192,13 @@ enum TechniqueID: String, Codable, CaseIterable, Identifiable, Hashable {
     case maeAshiMawashiGeri
     case kizamiMawashiGeri
     case ushiroAshiMawashiGeri
-    case kaseiMawashiGeri
     case surikondeMawashiGeri
     case tobikondeMawashiGeri
     case tobiMawashiGeri
     case mikazukiGeri
-    case gyakuMikazukiGeri
+    case uraMikazukiGeri
     case surikondeMikazukiGeri
     case tobikondeMikazukiGeri
-    case namiAshi
     case tobiGeri
     case tobiUshiroMawashiGeri
     case tobiYokoGeri
@@ -343,15 +327,6 @@ extension TechniqueID {
                 description: "Posture de profil inversée avec le bassin orienté à environ 45°."
             )
 
-        case .hizaKamae:
-            Technique(
-                id: self,
-                romaji: "Hiza-kamae",
-                french: "Garde avec genou levé",
-                category: .kamae,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_HizaGamae.jpg",
-                description: "Un genou est élevé devant le corps afin de le protéger."
-            )
 
         case .jiaiKamae:
             Technique(
@@ -403,15 +378,6 @@ extension TechniqueID {
                 description: "Les mains sont disposées pour pouvoir saisir simultanément la gorge et le bas-ventre."
             )
 
-        case .kosaKamae:
-            Technique(
-                id: self,
-                romaji: "Kosa-kamae",
-                french: "Garde croisée basse et moyenne",
-                category: .kamae,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_KosaGamae.jpg",
-                description: "Un bras exécute gedan-barai et l'autre un uchi-ude-uke chudan."
-            )
 
         case .koshiKamae:
             Technique(
@@ -423,25 +389,7 @@ extension TechniqueID {
                 description: "Les deux poings sont tirés au niveau de la même hanche, l'un placé au-dessus de l'autre."
             )
 
-        case .soeteKoshiKamae:
-            Technique(
-                id: self,
-                romaji: "Soete-koshi-kamae",
-                french: "Variante de garde aux hanches",
-                category: .kamae,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_SoeteKoshiGamae.jpg",
-                description: "Variante de koshi-kamae où le poing supérieur repose dans la paume de la main inférieure."
-            )
 
-        case .haitoKoshiKamae:
-            Technique(
-                id: self,
-                romaji: "Haito-koshi-kamae",
-                french: "Garde haito aux hanches",
-                category: .kamae,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_HaitoKoshiGamae.jpg",
-                description: "Les mains sont positionnées sur le flanc d'une hanche, une main fermée et l'autre avec le tranchant vers le haut."
-            )
 
         case .manjiKamae:
             Technique(
@@ -463,25 +411,7 @@ extension TechniqueID {
                 description: "Pieds joints, bras dans une position proche de kagi-zuki, avant-bras parallèles à la poitrine et poing arrière en hikité."
             )
 
-        case .ryusuiKamae:
-            Technique(
-                id: self,
-                romaji: "Ryusui-kamae",
-                french: "Garde de l'eau courante",
-                category: .kamae,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Garde_MizuNagareNoGamae.jpg",
-                description: "Variante de mizu-nagare-kamae avec la main avant ouverte sur le poing en hikité."
-            )
 
-        case .musoKamae:
-            Technique(
-                id: self,
-                romaji: "Muso-kamae",
-                french: "Posture incomparable",
-                category: .kamae,
-                imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/manji-uke-1.jpg?fx=r_200_200",
-                description: "Un bras est en gedan-barai et l'autre en age-uke, avec le corps de trois-quarts."
-            )
 
         case .ryokenKoshiKamae:
             Technique(
@@ -627,15 +557,6 @@ extension TechniqueID {
                 description: "Environ 70 % du poids repose sur la jambe arrière fortement fléchie."
             )
 
-        case .kaseiKokutsuDachi:
-            Technique(
-                id: self,
-                romaji: "Kasei-kokutsu-dachi",
-                french: "Position arrière basse",
-                category: .dachi,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_KoKutsuDachi.JPG",
-                description: "Variante plus basse que le kokutsu-dachi classique."
-            )
 
         case .kosaDachi, .kakeDachi:
             Technique(
@@ -647,15 +568,6 @@ extension TechniqueID {
                 description: "Les jambes sont croisées et le poids du corps repose principalement sur la jambe avant."
             )
 
-        case .motoDachi:
-            Technique(
-                id: self,
-                romaji: "Moto-dachi",
-                french: "Position fondamentale courte",
-                category: .dachi,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_MotoDachi.jpg",
-                description: "Fente avant raccourcie, souvent appelée petit zenkutsu-dachi."
-            )
 
         case .musubiDachi:
             Technique(
@@ -737,10 +649,10 @@ extension TechniqueID {
                 description: "Les pieds sont pratiquement perpendiculaires, le talon du pied avant étant au milieu du pied arrière."
             )
 
-        case .tsuruAshiDachi, .gangakuDachi:
+        case .tsuruAshiDachi, .gankakuDachi:
             Technique(
                 id: self,
-                romaji: self == .tsuruAshiDachi ? "Tsuru-ashi-dachi" : "Gangaku-dachi",
+                romaji: self == .tsuruAshiDachi ? "Tsuru-ashi-dachi" : "Gankaku-dachi",
                 french: "Position de la grue",
                 category: .dachi,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Posture_IpponAshiDachi.jpg",
@@ -801,15 +713,6 @@ extension TechniqueID {
                 description: "Rotation autour du pied avant qui sert de pivot."
             )
 
-        case .omawariAshi:
-            Technique(
-                id: self,
-                romaji: "Omawari-ashi",
-                french: "Grande rotation",
-                category: .ido,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Depl_OMawariAshi02.jpg",
-                description: "Forme ample de mawari-ashi."
-            )
 
         case .okuriAshi:
             Technique(
@@ -1105,25 +1008,7 @@ extension TechniqueID {
                 description: "Défense main ouverte destinée notamment à ramasser et soulever une jambe adverse."
             )
 
-        case .uchiSukuiUke:
-            Technique(
-                id: self,
-                romaji: "Uchi-sukui-uke",
-                french: "Blocage en cuillère intérieur-extérieur",
-                category: .uke,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SukuiUke.jpg",
-                description: "Variante de sukui-uke allant de l'intérieur vers l'extérieur."
-            )
 
-        case .sotoSukuiUke:
-            Technique(
-                id: self,
-                romaji: "Soto-sukui-uke",
-                french: "Blocage en cuillère extérieur-intérieur",
-                category: .uke,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_SukuiUke.jpg",
-                description: "Variante de sukui-uke allant de l'extérieur vers l'intérieur."
-            )
 
         case .tateShutoUke:
             Technique(
@@ -1219,15 +1104,6 @@ extension TechniqueID {
                 description: "Coup de poing avant effectué sur place ou avec yori-ashi."
             )
 
-        case .maeteZuki:
-            Technique(
-                id: self,
-                romaji: "Maete-zuki",
-                french: "Coup de poing avant",
-                category: .tsuki,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeteZuki05.jpg",
-                description: "Coup de poing avec le bras avant, sur place ou avec yori-ashi."
-            )
 
         case .mawashiZuki, .furiZuki:
             Technique(
@@ -1319,15 +1195,6 @@ extension TechniqueID {
                 description: "Frappe directe avec le bout des doigts vers les points sensibles."
             )
 
-        case .gohonNukite:
-            Technique(
-                id: self,
-                romaji: "Gohon-nukite",
-                french: "Pique à cinq doigts",
-                category: .tsuki,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
-                description: "Nukite exécuté avec les cinq doigts alignés."
-            )
 
         case .ipponNukite:
             Technique(
@@ -1349,20 +1216,20 @@ extension TechniqueID {
                 description: "Nukite effectué avec deux doigts, en fourchette ou en pince."
             )
 
-        case .yohonNukite:
+        case .shihonNukite:
             Technique(
                 id: self,
-                romaji: "Yohon-nukite",
+                romaji: "Shihon-nukite",
                 french: "Pique à quatre doigts",
                 category: .tsuki,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Nukite.jpg",
                 description: "Nukite effectué avec quatre doigts."
             )
 
-        case .oiZuki, .junZuki:
+        case .oiZuki:
             Technique(
                 id: self,
-                romaji: self == .oiZuki ? "Oi-zuki" : "Jun-zuki",
+                romaji: "Oi-zuki",
                 french: "Coup de poing en avançant",
                 category: .tsuki,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_OiZuki.jpg",
@@ -1537,7 +1404,7 @@ extension TechniqueID {
             Technique(
                 id: self,
                 romaji: "Mawashi-shuto-uchi",
-                french: "Sabar de main circulaire intérieur-extérieur",
+                french: "Sabre de main circulaire intérieur-extérieur",
                 category: .uchi,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUchi.jpg",
                 description: "Shuto-uchi allant de l'intérieur vers l'extérieur."
@@ -1547,7 +1414,7 @@ extension TechniqueID {
             Technique(
                 id: self,
                 romaji: "Soto-shuto-uchi",
-                french: "Sabar de main extérieur-intérieur",
+                french: "Sabre de main extérieur-intérieur",
                 category: .uchi,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_ShutoUchi.jpg",
                 description: "Shuto-uchi allant de l'extérieur vers l'intérieur."
@@ -1653,10 +1520,10 @@ extension TechniqueID {
                 description: "Uraken sur un plan horizontal, de l'intérieur vers l'extérieur."
             )
 
-        case .seikenMawashiUchi:
+        case .urakenMawashiUchi:
             Technique(
                 id: self,
-                romaji: "Seiken-mawashi-uchi",
+                romaji: "Uraken-mawashi-uchi",
                 french: "Uraken horizontal extérieur-intérieur",
                 category: .uchi,
                 imageURL: "https://ecoledekarateshotokanchagny.e-monsite.com/medias/images/yoko-uraken-uchi.jpg",
@@ -1697,15 +1564,6 @@ extension TechniqueID {
                 description: "Ashi-barai effectué avec la jambe arrière après pivot du corps."
             )
 
-        case .tobiAshiBarai:
-            Technique(
-                id: self,
-                romaji: "Tobi-ashi-barai",
-                french: "Balayage sauté",
-                category: .barai,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_AshiBarai.jpg",
-                description: "Balayage de jambe effectué en sautant."
-            )
 
         case .ushiroMawashiBarai:
             Technique(
@@ -1885,10 +1743,10 @@ extension TechniqueID {
             Technique(
                 id: self,
                 romaji: "Tobikonde-mae-geri",
-                french: "Mae-geri après pas croisé",
+                french: "Mae-geri en s'élançant",
                 category: .geri,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MaeGeri01.jpg",
-                description: "Mae-geri effectué après un pas croisé."
+                description: "Mae-geri effectué en s'élançant vers l'avant."
             )
 
         case .tobiMaeGeri:
@@ -1933,15 +1791,6 @@ extension TechniqueID {
                 description: "Mawashi-geri donné avec la jambe arrière."
             )
 
-        case .kaseiMawashiGeri:
-            Technique(
-                id: self,
-                romaji: "Kasei-mawashi-geri",
-                french: "Mawashi-geri en contre-plongée",
-                category: .geri,
-                imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
-                description: "Mawashi-geri délivré par-dessous ou depuis le sol."
-            )
 
         case .surikondeMawashiGeri:
             Technique(
@@ -1957,10 +1806,10 @@ extension TechniqueID {
             Technique(
                 id: self,
                 romaji: "Tobikonde-mawashi-geri",
-                french: "Mawashi-geri après pas croisé",
+                french: "Mawashi-geri en s'élançant",
                 category: .geri,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_MawashiGeriH03.jpg",
-                description: "Mawashi-geri effectué après un pas croisé."
+                description: "Mawashi-geri effectué en s'élançant vers l'avant."
             )
 
         case .tobiMawashiGeri:
@@ -1983,10 +1832,10 @@ extension TechniqueID {
                 description: "Coup de pied en croissant avec la plante du pied, de l'extérieur vers l'intérieur."
             )
 
-        case .gyakuMikazukiGeri:
+        case .uraMikazukiGeri:
             Technique(
                 id: self,
-                romaji: "Gyaku-mikazuki-geri",
+                romaji: "Ura-mikazuki-geri",
                 french: "Croissant inversé",
                 category: .geri,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Gyaku_mikazuki_geri.jpg",
@@ -2007,18 +1856,18 @@ extension TechniqueID {
             Technique(
                 id: self,
                 romaji: "Tobikonde-mikazuki-geri",
-                french: "Mikazuki-geri après pas croisé",
+                french: "Mikazuki-geri en s'élançant",
                 category: .geri,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_Mikazuki_geri.jpg",
-                description: "Mikazuki-geri effectué après un pas croisé."
+                description: "Mikazuki-geri effectué en s'élançant vers l'avant."
             )
 
-        case .namiAshi:
+        case .namiGaeshi:
             Technique(
                 id: self,
-                romaji: "Nami-ashi",
-                french: "Coup de pied en vague",
-                category: .geri,
+                romaji: "Nami-gaeshi",
+                french: "Retour de vague",
+                category: .uke,
                 imageURL: "https://www.karate-tourny27.fr/Images/Techniques/Tech_NamiGaeshi.jpg",
                 description: "Mouvement remontant avec la plante du pied, notamment utilisé pour balayer une attaque basse."
             )
