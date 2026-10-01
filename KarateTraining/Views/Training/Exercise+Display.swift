@@ -7,15 +7,6 @@ extension Step {
         if let target { text += " \(target.rawValue)" }
         return text
     }
-
-    /// Ex. « Migi (droite) », ou « Migi + Hidari » quand les techniques
-    /// de l'étape ne sont pas du même côté. `nil` si aucun côté n'est indiqué.
-    var sideText: String? {
-        let known = sides.compactMap { $0 }
-        guard let first = known.first else { return nil }
-        if known.allSatisfy({ $0 == first }) { return first.title }
-        return sides.map { $0?.romaji ?? "—" }.joined(separator: " + ")
-    }
 }
 
 extension Exercise {

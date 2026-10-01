@@ -156,8 +156,8 @@ struct StepCard: View {
         if let stance {
             Chip(text: stanceText(for: stance), systemImage: "figure.stand")
         }
-        if let sideText = step.sideText {
-            Chip(text: sideText, systemImage: "arrow.left.and.right")
+        if let side = step.side {
+            Chip(text: side.title, systemImage: "arrow.left.and.right")
         }
     }
 

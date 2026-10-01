@@ -39,10 +39,9 @@ struct Step: Decodable, Hashable {
     /// Position (dachi) adoptée pour cette étape — de départ pour une parade
     /// ou un coup de poing, d'arrivée pour un coup de pied.
     var stance: TechniqueID?
-    /// Côté (migi / hidari) de chaque technique, dans l'ordre de `techniques` :
-    /// bras ou jambe qui exécute la technique, ou côté de la position pour une
-    /// technique à deux bras. Vide si le côté n'a pas d'importance.
-    var sides: [Side?] = []
+    /// Côté (migi / hidari) de l'étape : bras ou jambe qui exécute la
+    /// technique principale, ou côté de la position pour une technique à deux bras.
+    var side: Side?
 }
 
 
@@ -104,13 +103,6 @@ enum Direction: String, Codable, CaseIterable, Hashable {
 enum Side: String, Codable, CaseIterable, Hashable {
     case migi    // droite
     case hidari  // gauche
-
-    var romaji: String {
-        switch self {
-        case .migi:   "Migi"
-        case .hidari: "Hidari"
-        }
-    }
 
     var title: String {
         switch self {
